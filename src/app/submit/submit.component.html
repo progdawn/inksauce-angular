@@ -1,3 +1,86 @@
-<p>
-  submit works!
-</p>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" class="d-inline-block align-top" alt="">
+        Inksauce</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="brands.html">Brands</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gear.html">Gear</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="abilities.html">Abilities</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="weapons.html">Weapons</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="subs.html">Subs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="specials.html">Specials</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Submit Media <span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<section>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 order-1">
+                <div class="p-5">
+                    <h2 class="display-4">Wanna Submit A Picture?</h2>
+                    <p>Awesome! I'm always looking for more fresh pictures to add to the gallery. The only requirements are that they, at a bare minimum, crack a smirk. The other is nothing LEWD!</p>
+                    <p>Instead of uploading a picture directly, I ask that you submit a picture through the use of a third party site. No sense in reinventing the wheel, right? Here is a list of site I accept pictures from:</p>
+                    <ul class="list-unstyled">
+                        <li><a href="https://imgur.com/" target="_blank">Imgur</a></li>
+                        <li><a href="https://photos.google.com/" target="_blank">Google Photos</a></li>
+                        <li><a href="https://www.dropbox.com" target="_blank">Dropbox</a></li>
+                        <li><a href="https://www.flickr.com/" target="_blank">Flickr</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6 order-2">
+                <div class="p-5">
+                    <form class="container" id="submit-pic-form" method="POST" action="submit-form.php">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" aria-describedby="name-help" placeholder="Enter name">
+                            <small id="name-help" class="form-text text-muted">What should I call you?</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" name="email" value="" aria-describedby="email-help" placeholder="Enter email">
+                            <small id="email-help" class="form-text text-muted">Your email address is safe with me!</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="imageurl">Image URL</label>
+                            <input type="url" class="form-control" id="imageurl" name="imageurl" placeholder="Image URL" required data-fv-uri="true">
+                            <small id="url-help" class="form-text text-muted">Use the recommended sites!</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="description">Describe the image</label>
+                            <textarea class="form-control" id="description" name="description" rows="3"></textarea>
+                        </div>
+                        <input type="submit" id="submit" name="submit" value="submit" class="btn btn-primary" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

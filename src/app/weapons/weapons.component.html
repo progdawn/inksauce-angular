@@ -1,3 +1,608 @@
-<p>
-  weapons works!
-</p>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" class="d-inline-block align-top" alt="">
+        Inksauce</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="brands.html">Brands</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gear.html">Gear</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="abilities.html">Abilities</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Weapons <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="subs.html">Subs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="specials.html">Specials</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="submit.html">Submit Media</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<header class="jumbotron my-4" id="weapons-jumbotron">
+    <h1 class="display-3">Weapons</h1>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
+</header>
+
+<section>
+   <h2 class="be-quiet">Validation!</h2>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-12">
+                <form>
+                    <div class="form-group">
+                        <label class="col-form-label form-control-lg" for="search-all">Search All Weapons</label>
+                        <input type="text" class="form-control" id="search-all" placeholder="Search">
+                    </div>
+                </form>
+<!--
+                <nav class="nav nav-tabs" id="myTab" role="tablist">
+                    <a class="nav-item nav-link active" id="nav-blasters-tab" data-toggle="tab" href="#nav-blasters" aria-controls="nav-blasters" aria-selected="true">Blasters</a>
+                    <a class="nav-item nav-link" id="nav-brellas-tab" data-toggle="tab" href="#nav-brellas" role="tab" aria-controls="nav-brellas" aria-selected="false">Brellas</a>
+                    <a class="nav-item nav-link" id="nav-brushes-tab" data-toggle="tab" href="#nav-brushes" role="tab" aria-controls="nav-brushes" aria-selected="false">Brushes</a>
+                    <a class="nav-item nav-link" id="nav-chargers-tab" data-toggle="tab" href="#nav-chargers" role="tab" aria-controls="nav-chargers" aria-selected="false">Chargers</a>
+                    <a class="nav-item nav-link" id="nav-dualies-tab" data-toggle="tab" href="#nav-dualies" role="tab" aria-controls="nav-dualies" aria-selected="false">Dualies</a>
+                    <a class="nav-item nav-link" id="nav-rollers-tab" data-toggle="tab" href="#nav-rollers" role="tab" aria-controls="nav-rollers" aria-selected="false">Rollers</a>
+                    <a class="nav-item nav-link" id="nav-shooters-tab" data-toggle="tab" href="#nav-shooters" role="tab" aria-controls="nav-shooters" aria-selected="false">Shooters</a>
+                    <a class="nav-item nav-link" id="nav-sloshers-tab" data-toggle="tab" href="#nav-sloshers" role="tab" aria-controls="nav-sloshers" aria-selected="false">Sloshers</a>
+                    <a class="nav-item nav-link" id="nav-splatlings-tab" data-toggle="tab" href="#nav-splatlings" role="tab" aria-controls="nav-splatlings" aria-selected="false">Splatlings</a>
+                </nav>
+-->
+                <ul class="nav nav-tabs" id="weapons-tabs" role="tablist">
+                    <li class="nav-item"><a class="nav-link active" id="nav-blasters-tab" data-toggle="tab" href="#nav-blasters" role="tab" aria-controls="nav-blasters" aria-selected="true">Blasters</a></li>
+                    <li class="nav-item"><a class="nav-link" id="nav-brellas-tab" data-toggle="tab" href="#nav-brellas" role="tab" aria-controls="nav-brellas" aria-selected="false">Brellas</a></li>
+                    <li class="nav-item"><a class="nav-link" id="nav-brushes-tab" data-toggle="tab" href="#nav-brushes" role="tab" aria-controls="nav-brushes" aria-selected="false">Brushes</a></li>
+                    <li class="nav-item"><a class="nav-link" id="nav-chargers-tab" data-toggle="tab" href="#nav-chargers" role="tab" aria-controls="nav-chargers" aria-selected="false">Chargers</a></li>
+                    <li class="nav-item"><a class="nav-link" id="nav-dualies-tab" data-toggle="tab" href="#nav-dualies" role="tab" aria-controls="nav-dualies" aria-selected="false">Dualies</a></li>
+                    <li class="nav-item"><a class="nav-link" id="nav-rollers-tab" data-toggle="tab" href="#nav-rollers" role="tab" aria-controls="nav-rollers" aria-selected="false">Rollers</a></li>
+                    <li class="nav-item"><a class="nav-link" id="nav-shooters-tab" data-toggle="tab" href="#nav-shooters" role="tab" aria-controls="nav-shooters" aria-selected="false">Shooters</a></li>
+                    <li class="nav-item"><a class="nav-link" id="nav-sloshers-tab" data-toggle="tab" href="#nav-sloshers" role="tab" aria-controls="nav-sloshers" aria-selected="false">Sloshers</a></li>
+                    <li class="nav-item"><a class="nav-link" id="nav-splatlings-tab" data-toggle="tab" href="#nav-splatlings" role="tab" aria-controls="nav-splatlings" aria-selected="false">Splatlings</a></li>
+                </ul>
+
+                <div class="tab-content" id="weapons-content">
+                    <div class="tab-pane fade show active" id="nav-blasters" role="tabpanel" aria-labelledby="nav-blasters-tab">
+                        <table class="table table-striped table-bordered dt-responsive nowrap" id="blasters-table">
+                            <thead class="thead-default">
+                                <tr>
+                                    <th>Name</th>
+                                    <th class="min-phone-l nosort">Image</th>
+                                    <th>Sub</th>
+                                    <th>Special</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>Luna Blaster</th>
+                                    <td><img src="images/weapons/Wst_Shooter_BlasterShort_00.png" alt="Luna Blaster" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Splash.png" alt="Splat Bomb"/>Splat Bomb</td>
+                                    <td><img src="images/specials/Wsp_AquaBall.png" alt="Baller"/>Baller</td>
+                                </tr>
+                                <tr>
+                                    <th>Blaster</th>
+                                    <td><img src="images/weapons/Wst_Shooter_BlasterMiddle_00.png" alt="Blaster" /></td>
+                                    <td><img src="images/subs/Wsb_PoisonFog.png" alt="Toxic Mist"/>Toxic Mist</td>
+                                    <td><img src="images/specials/Wsp_SuperLanding.png" alt="Splashdown"/>Splashdown</td>
+                                </tr>
+                                <tr>
+                                    <th>Custom Blaster</th>
+                                    <td><img src="images/weapons/Wst_Shooter_BlasterMiddle_01.png" alt="Custom Blaster" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Robo.png" alt="Autobomb" />Autobomb</td>
+                                    <td><img src="images/specials/Wsp_Jetpack.png" alt="Inkjet" />Inkjet</td>
+                                </tr>
+                                <tr>
+                                    <th>Hero Blaster Replica</th>
+                                    <td><img src="images/weapons/Wst_Shooter_BlasterMiddle_H.png" alt="Hero Blaster Replica" /></td>
+                                    <td><img src="images/subs/Wsb_PoisonFog.png" alt="Toxic Mist" />Toxic Mist</td>
+                                    <td><img src="images/specials/Wsp_SuperLanding.png" alt="Splashdown" />Splashdown</td>
+                                </tr>
+                                <tr>
+                                    <th>Range Blaster</th>
+                                    <td><img src="images/weapons/Wst_Shooter_BlasterLong_00.png" alt="Range Blaster" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Suction.png" alt="Suction Bomb" />Suction Bomb</td>
+                                    <td><img src="images/specials/Wsp_RainCloud.png" alt="Ink Storm" />Ink Storm</td>
+                                </tr>
+                                <tr>
+                                    <th>Clash Blaster</th>
+                                    <td><img src="images/weapons/Wst_Shooter_BlasterLightShort_00.png" alt="Clash Blaster" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Splash.png" alt="Splat Bomb" />Splat Bomb</td>
+                                    <td><img src="images/specials/Wsp_WaterCutter.png" alt="Sting Ray" />Sting Ray</td>
+                                </tr>
+                                <tr>
+                                    <th>Rapid Blaster</th>
+                                    <td><img src="images/weapons/Wst_Shooter_BlasterLight_00.png" alt="Rapid Blaster" /></td>
+                                    <td><img src="images/subs/Wsb_TimerTrap.png" alt="Ink Mine" />Ink Mine</td>
+                                    <td><img src="images/specials/Wsp_LauncherSplash.png" alt="Splat-Bomb Launcher" />Splat-Bomb Launcher</td>
+                                </tr>
+                                <tr>
+                                    <th>Rapid Blaster Pro</th>
+                                    <td><img src="images/weapons/Wst_Shooter_BlasterLightLong_00.png" alt="Rapid Blaster Pro" /></td>
+                                    <td><img src="images/subs/Wsb_PoisonFog.png" alt="Toxic Mist" />Toxic Mist</td>
+                                    <td><img src="images/specials/Wsp_RainCloud.png" alt="Ink Storm" />Ink Storm</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="nav-brellas" role="tabpanel" aria-labelledby="nav-brellas-tab">
+                        <table class="table table-striped table-bordered dt-responsive nowrap" id="brellas-table">
+                            <thead class="thead-default">
+                                <tr>
+                                    <th>Name</th>
+                                    <th class="nosort">Image</th>
+                                    <th>Sub</th>
+                                    <th>Special</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>Splat Brella</th>
+                                    <td><img src="images/weapons/Wst_Umbrella_Normal_00.png" alt="Splat Brella" /></td>
+                                    <td><img src="images/subs/Wsb_Sprinkler.png" alt="Sprinkler"/>Sprinkler</td>
+                                    <td><img src="images/specials/Wsp_RainCloud.png" alt="Ink Storm"/>Ink Storm</td>
+                                </tr>
+                                <tr>
+                                    <th>Hero Brella Replica</th>
+                                    <td><img src="images/weapons/Wst_Umbrella_Normal_H.png" alt="Hero Brella Replica" /></td>					<td><img src="images/subs/Wsb_Sprinkler.png" alt="Sprinkler"/>Sprinkler</td>
+                                    <td><img src="images/specials/Wsp_RainCloud.png" alt="Ink Storm"/>Ink Storm</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="nav-brushes" role="tabpanel" aria-labelledby="nav-brushes-tab">
+                        <table class="table table-striped table-bordered dt-responsive nowrap" id="brushes-table">
+                            <thead class="thead-default">
+                                <tr>
+                                    <th>Name</th>
+                                    <th class="nosort">Image</th>
+                                    <th>Sub</th>
+                                    <th>Special</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>Inkbrush</th>
+                                    <td><img src="images/weapons/Wst_Roller_BrushMini_00.png" alt="Inkbrush" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Splash.png" alt="Splat Bomb"/>Splat Bomb</td>
+                                    <td><img src="images/specials/Wsp_SuperLanding.png" alt="Splashdown"/>Splashdown</td>
+                                </tr>
+                                <tr>
+                                    <th>Inkbrush Nouveau</th>
+                                    <td><img src="images/weapons/Wst_Roller_BrushMini_01.png" alt="Inkbrush Nouveau" /></td>
+                                    <td><img src="images/subs/Wsb_TimerTrap.png" alt="Ink Mine"/>Ink Mine</td>
+                                    <td><img src="images/specials/Wsp_AquaBall.png" alt="Baller"/>Baller</td>
+                                </tr>
+                                <tr>
+                                    <th>Octobrush</th>
+                                    <td><img src="images/weapons/Wst_Roller_BrushNormal_00.png" alt="Octobrush" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Robo.png" alt="Autobomb" />Autobomb</td>
+                                    <td><img src="images/specials/Wsp_Jetpack.png" alt="Inkjet" />Inkjet</td>
+                                </tr>
+                                <tr>
+                                    <th>Herobrush Replica</th>
+                                    <td><img src="images/weapons/Wst_Roller_BrushNormal_H.png" alt="Herobrush Replica" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Robo.png" alt="Autobomb" />Autobomb</td>
+                                    <td><img src="images/specials/Wsp_Jetpack.png" alt="Inkjet" />Inkjet</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="nav-chargers" role="tabpanel" aria-labelledby="nav-chargers-tab">
+                        <table class="table table-striped table-bordered dt-responsive nowrap" id="chargers-table">
+                            <thead class="thead-default">
+                                <tr>
+                                    <th>Name</th>
+                                    <th class="nosort">Image</th>
+                                    <th>Sub</th>
+                                    <th>Special</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>Classic Squiffer</th>
+                                    <td><img src="images/weapons/Wst_Charger_Quick_00.png" alt="Classic Squiffer" /></td>
+                                    <td><img src="images/subs/Wsb_PointSensor.png" alt="Point Sensor"/>Point Sensor</td>
+                                    <td><img src="images/specials/Wsp_SuperArmor.png" alt="Ink Armor"/>Ink Armor</td>
+                                </tr>
+                                <tr>
+                                    <th>Splat Charger</th>
+                                    <td><img src="images/weapons/Wst_Charger_Normal_00.png" alt="Splat Charger" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Splash.png" alt="Splat Bomb"/>Splat Bomb</td>
+                                    <td><img src="images/specials/Wsp_WaterCutter.png" alt="Sting Ray"/>Sting Ray</td>
+                                </tr>
+                                <tr>
+                                    <th>Firefin Splat Charger</th>
+                                    <td><img src="images/weapons/Wst_Charger_Normal_01.png" alt="Firefin Splat Charger" /></td>
+                                    <td><img src="images/subs/Wsb_Shield.png" alt="Splash Wall" />Splash Wall</td>
+                                    <td><img src="images/specials/Wsp_LauncherSuction.png" alt="Suction-Bomb Launcher" />Suction-Bomb Launcher</td>
+                                </tr>
+                                <tr>
+                                    <th>Hero Charger Replica</th>
+                                    <td><img src="images/weapons/Wst_Charger_Normal_H.png" alt="Hero Charger Replica" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Splash.png" alt="Splat Bomb" />Splat Bomb</td>
+                                    <td><img src="images/specials/Wsp_WaterCutter.png" alt="Sting Ray" />Sting Ray</td>
+                                </tr>
+                                <tr>
+                                    <th>Splatterscope</th>
+                                    <td><img src="images/weapons/Wst_Charger_NormalScope_00.png" alt="Splatterscope" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Splash.png" alt="Splat Bomb" />Splat Bomb</td>
+                                    <td><img src="images/specials/Wsp_WaterCutter.png" alt="Sting Ray" />Sting Ray</td>
+                                </tr>
+                                <tr>
+                                    <th>Firefin Splatterscope</th>
+                                    <td><img src="images/weapons/Wst_Charger_NormalScope_01.png" alt="Firefin Splatterscope" /></td>
+                                    <td><img src="images/subs/Wsb_Shield.png" alt="Splash Wall" />Splash Wall</td>
+                                    <td><img src="images/specials/Wsp_LauncherSuction.png" alt="Suction-Bomb Launcher" />Suction-Bomb Launcher</td>
+                                </tr>
+                                <tr>
+                                    <th>E-liter 4K</th>
+                                    <td><img src="images/weapons/Wst_Charger_Long_00.png" alt="E-liter 4K" /></td>
+                                    <td><img src="images/subs/Wsb_TimerTrap.png" alt="Ink Mine" />Ink Mine</td>
+                                    <td><img src="images/specials/Wsp_RainCloud.png" alt="Ink Storm" />Ink Storm</td>
+                                </tr>
+                                <tr>
+                                    <th>Custom E-liter 4K</th>
+                                    <td><img src="images/weapons/Wst_Charger_Long_01.png" alt="Custom E-liter 4K" /></td>
+                                    <td><img src="images/subs/Wsb_Flag.png" alt="Squid Beakon" />Squid Beakon</td>
+                                    <td><img src="images/specials/Wsp_SuperBubble.png" alt="Bubble Blower" />Bubble Blower</td>
+                                </tr>
+                                <tr>
+                                    <th>E-liter 4K Scope</th>
+                                    <td><img src="images/weapons/Wst_Charger_LongScope_00.png" alt="E-liter 4K Scope" /></td>
+                                    <td><img src="images/subs/Wsb_TimerTrap.png" alt="Ink Mine" />Ink Mine</td>
+                                    <td><img src="images/specials/Wsp_RainCloud.png" alt="Ink Storm" />Ink Storm</td>
+                                </tr>
+                                <tr>
+                                    <th>Custom E-liter 4K Scope</th>
+                                    <td><img src="images/weapons/Wst_Charger_LongScope_01.png" alt="Custom E-liter 4K Scope" /></td>
+                                    <td><img src="images/subs/Wsb_Flag.png" alt="Squid Beakon" />Squid Beakon</td>
+                                    <td><img src="images/specials/Wsp_SuperBubble.png" alt="Bubble Blower" />Bubble Blower</td>
+                                </tr>
+                                <tr>
+                                    <th>Bamboozler 14 Mk I</th>
+                                    <td><img src="images/weapons/Wst_Charger_Light_00.png" alt="Bamboozler 14 Mk I" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Curling.png" alt="Curling Bomb" />Curling Bomb</td>
+                                    <td><img src="images/specials/Wsp_SuperMissile.png" alt="Tenta Missiles" />Tenta Missiles</td>
+                                </tr>
+                                <tr>
+                                    <th>Goo Tuber</th>
+                                    <td><img src="images/weapons/Wst_Charger_Keeper_00.png" alt="Goo Tuber" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Suction.png" alt="Suction Bomb" />Suction Bomb</td>
+                                    <td><img src="images/specials/Wsp_SuperLanding.png" alt="Splashdown" />Splashdown</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="nav-dualies" role="tabpanel" aria-labelledby="nav-dualies-tab">
+                        <table class="table table-striped table-bordered dt-responsive nowrap" id="dualies-table">
+                            <thead class="thead-default">
+                                <tr>
+                                    <th>Name</th>
+                                    <th class="nosort">Image</th>
+                                    <th>Sub</th>
+                                    <th>Special</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>Splat Dualies</th>
+                                    <td><img src="images/weapons/Wst_Twins_Normal_00.png" alt="Splat Dualies" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Quick.png" alt="Burst Bomb"/>Burst Bomb</td>
+                                    <td><img src="images/specials/Wsp_SuperMissile.png" alt="Tenta Missiles"/>Tenta Missiles</td>
+                                </tr>
+                                <tr>
+                                    <th>Enperry Splat Dualies</th>
+                                    <td><img src="images/weapons/Wst_Twins_Normal_01.png" alt="Enperry Splat Dualies" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Curling.png" alt="Curling Bomb"/>Curling Bomb</td>
+                                    <td><img src="images/specials/Wsp_Jetpack.png" alt="Inkjet"/>Inkjet</td>
+                                </tr>
+                                <tr>
+                                    <th>Hero Dualie Replicas</th>
+                                    <td><img src="images/weapons/Wst_Twins_Normal_H.png" alt="Hero Dualie Replicas" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Quick.png" alt="Burst Bomb" />Burst Bomb</td>
+                                    <td><img src="images/specials/Wsp_SuperMissile.png" alt="Tenta Missiles" />Tenta Missiles</td>
+                                </tr>
+                                <tr>
+                                    <th>Dapple Dualies</th>
+                                    <td><img src="images/weapons/Wst_Twins_Short_00.png" alt="Dapple Dualies" /></td>
+                                    <td><img src="images/subs/Wsb_Flag.png" alt="Squid Beakon" />Squid Beakon</td>
+                                    <td><img src="images/specials/Wsp_LauncherSuction.png" alt="Suction-Bomb Launcher" />Suction-Bomb Launcher</td>
+                                </tr>
+                                <tr>
+                                    <th>Dualie Squelchers</th>
+                                    <td><img src="images/weapons/Wst_Twins_Dual_00.png" alt="Dualie Squelchers" /></td>
+                                    <td><img src="images/subs/Wsb_PointSensor.png" alt="Point Sensor" />Point Sensor</td>
+                                    <td><img src="images/specials/Wsp_SuperMissile.png" alt="Tenta Missiles" />Tenta Missiles</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="nav-rollers" role="tabpanel" aria-labelledby="nav-rollers-tab">
+                        <table class="table table-striped table-bordered dt-responsive nowrap" id="rollers-table">
+                            <thead class="thead-default">
+                                <tr>
+                                    <th>Name</th>
+                                    <th class="nosort">Image</th>
+                                    <th>Sub</th>
+                                    <th>Special</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>Carbon Roller</th>
+                                    <td><img src="images/weapons/Wst_Roller_Compact_00.png" alt="Carbon Roller" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Robo.png" alt="Autobomb" />Autobomb</td>
+                                    <td><img src="images/specials/Wsp_RainCloud.png" alt="Ink Storm" />Ink Storm</td>
+                                </tr>
+                                <tr>
+                                    <th>Splat Roller</th>
+                                    <td><img src="images/weapons/Wst_Roller_Normal_02.png" alt="Splat Roller" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Curling.png" alt="Curling Bomb" />Curling Bomb</td>
+                                    <td><img src="images/specials/Wsp_SuperLanding.png" alt="Splashdown" />Splashdown</td>
+                                </tr>
+                                <tr>
+                                    <th>Krak-On Splat Roller</th>
+                                    <td><img src="images/weapons/Wst_Roller_Normal_01.png" alt="Krak-On Splat Roller" /></td>
+                                    <td><img src="images/subs/Wsb_Flag.png" alt="Squid Beakon" />Squid Beakon</td>
+                                    <td><img src="images/specials/Wsp_AquaBall.png" alt="Baller" />Baller</td>
+                                </tr>
+                                <tr>
+                                    <th>Hero Roller Replica</th>
+                                    <td><img src="images/weapons/Wst_Roller_Normal_H.png" alt="Hero Roller Replica" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Curling.png" alt="Curling Bomb" />Curling Bomb</td>
+                                    <td><img src="images/specials/Wsp_SuperLanding.png" alt="Splashdown" />Splashdown</td>
+                                </tr>
+                                <tr>
+                                    <th>Dynamo Roller</th>
+                                    <td><img src="images/weapons/Wst_Roller_Heavy_00.png" alt="Dynamo Roller" /></td>
+                                    <td><img src="images/subs/Wsb_TimerTrap.png" alt="Ink Mine" />Ink Mine</td>
+                                    <td><img src="images/specials/Wsp_WaterCutter.png" alt="Sting Ray" />Sting Ray</td>
+                                </tr>
+                                <tr>
+                                    <th>Gold Dynamo Roller</th>
+                                    <td><img src="images/weapons/Wst_Roller_Heavy_01.png" alt="Gold Dynamo Roller" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Splash.png" alt="Splat Bomb" />Splat Bomb</td>
+                                    <td><img src="images/specials/Wsp_SuperArmor.png" alt="Ink Armor" />Ink Armor</td>
+                                </tr>
+                                <tr>
+                                    <th>Flingza Roller</th>
+                                    <td><img src="images/weapons/Wst_Roller_Hunter_00.png" alt="Flingza Roller" /></td>
+                                    <td><img src="images/subs/Wsb_Shield.png" alt="Splash Wall" />Splash Wall</td>
+                                    <td><img src="images/specials/Wsp_LauncherSplash.png" alt="Splat-Bomb Launcher" />Splat-Bomb Launcher</td>
+                                </tr>
+                                <tr>
+                                    <th>Foil Flingza Roller</th>
+                                    <td><img src="images/weapons/Wst_Roller_Hunter_01.png" alt="Foil Flingza Roller" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Suction.png" alt="Suction Bomb" />Suction Bomb</td>
+                                    <td><img src="images/specials/Wsp_SuperMissile.png" alt="Tenta Missiles" />Tenta Missiles</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="nav-shooters" role="tabpanel" aria-labelledby="nav-shooters-tab">
+                        <table class="table table-striped table-bordered dt-responsive nowrap" id="shooters-table">
+                            <thead class="thead-default">
+                                <tr>
+                                    <th>Name</th>
+                                    <th class="nosort">Image</th>
+                                    <th>Sub</th>
+                                    <th>Special</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>Splattershot Jr.</th>
+                                    <td><img src="images/weapons/Wst_Shooter_First_00.png" alt="Splattershot Jr." /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Splash.png" alt="Splat Bomb" />Splat Bomb</td>
+                                    <td><img src="images/specials/Wsp_SuperArmor.png" alt="Ink Armor" />Ink Armor</td>
+                                </tr>
+                                <tr>
+                                    <th>Custom Splattershot Jr.</th>
+                                    <td><img src="images/weapons/Wst_Shooter_First_01.png" alt="Custom Splattershot Jr." /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Robo.png" alt="Autobomb" />Autobomb</td>
+                                    <td><img src="images/specials/Wsp_RainCloud.png" alt="Ink Storm" />Ink Storm</td>
+                                </tr>
+                                <tr>
+                                    <th>Splattershot</th>
+                                    <td><img src="images/weapons/Wst_Shooter_Normal_00.png" alt="Splattershot" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Quick.png" alt="Burst Bomb" />Burst Bomb</td>
+                                    <td><img src="images/specials/Wsp_SuperLanding.png" alt="Splashdown" />Splashdown</td>
+                                </tr>
+                                <tr>
+                                    <th>Tentatek Splattershot</th>
+                                    <td><img src="images/weapons/Wst_Shooter_Normal_01.png" alt="Tentatek Splattershot" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Splash.png" alt="Splat Bomb" />Splat Bomb</td>
+                                    <td><img src="images/specials/Wsp_Jetpack.png" alt="Inkjet" />Inkjet</td>
+                                </tr>
+                                <tr>
+                                    <th>Hero Shot Replica</th>
+                                    <td><img src="images/weapons/Wst_Shooter_Normal_H.png" alt="Hero Shot Replica" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Quick.png" alt="Burst Bomb" />Burst Bomb</td>
+                                    <td><img src="images/specials/Wsp_SuperLanding.png" alt="Splashdown" />Splashdown</td>
+                                </tr>
+                                <tr>
+                                    <th>Splattershot Pro</th>
+                                    <td><img src="images/weapons/Wst_Shooter_Expert_00.png" alt="Splattershot Pro" /></td>
+                                    <td><img src="images/subs/Wsb_PointSensor.png" alt="Point Sensor" />Point Sensor</td>
+                                    <td><img src="images/specials/Wsp_RainCloud.png" alt="Ink Storm" />Ink Storm</td>
+                                </tr>
+                                <tr>
+                                    <th>Forge Splattershot Pro</th>
+                                    <td><img src="images/weapons/Wst_Shooter_Expert_01.png" alt="Forge Splattershot Pro" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Suction.png" alt="Suction Bomb" />Suction Bomb</td>
+                                    <td><img src="images/specials/Wsp_SuperBubble.png" alt="Bubble Blower" />Bubble Blower</td>
+                                </tr>
+                                <tr>
+                                    <th>Splash-o-matic</th>
+                                    <td><img src="images/weapons/Wst_Shooter_Precision_00.png" alt="Splash-o-matic" /></td>
+                                    <td><img src="images/subs/Wsb_PoisonFog.png" alt="Toxic Mist" />Toxic Mist</td>
+                                    <td><img src="images/specials/Wsp_Jetpack.png" alt="Inkjet" />Inkjet</td>
+                                </tr>
+                                <tr>
+                                    <th>Sploosh-o-matic</th>
+                                    <td><img src="images/weapons/Wst_Shooter_Short_00.png" alt="Sploosh-o-matic" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Curling.png" alt="Curling Bomb" />Curling Bomb</td>
+                                    <td><img src="images/specials/Wsp_SuperLanding.png" alt="Splashdown" />Splashdown</td>
+                                </tr>
+                                <tr>
+                                    <th>Jet Squelcher</th>
+                                    <td><img src="images/weapons/Wst_Shooter_Long_00.png" alt="Jet Squelcher" /></td>
+                                    <td><img src="images/subs/Wsb_PoisonFog.png" alt="Toxic Mist" />Toxic Mist</td>
+                                    <td><img src="images/specials/Wsp_SuperMissile.png" alt="Tenta Missiles" />Tenta Missiles</td>
+                                </tr>
+                                <tr>
+                                    <th>Custom Jet Squelcher</th>
+                                    <td><img src="images/weapons/Wst_Shooter_Long_01.png" alt="Custom Jet Squelcher" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Quick.png" alt="Burst Bomb" />Burst Bomb</td>
+                                    <td><img src="images/specials/Wsp_WaterCutter.png" alt="Sting Ray" />Sting Ray</td>
+                                </tr>
+                                <tr>
+                                    <th>N-ZAP 85</th>
+                                    <td><img src="images/weapons/Wst_Shooter_QuickMiddle_00.png" alt="N-ZAP &#39;85" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Suction.png" alt="Suction Bomb" />Suction Bomb</td>
+                                    <td><img src="images/specials/Wsp_SuperArmor.png" alt="Ink Armor" />Ink Armor</td>
+                                </tr>
+                                <tr>
+                                    <th>Aerospray MG</th>
+                                    <td><img src="images/weapons/Wst_Shooter_Blaze_00.png" alt="Aerospray MG" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Suction.png" alt="Suction Bomb" />Suction Bomb</td>
+                                    <td><img src="images/specials/Wsp_LauncherCurling.png" alt="Curling-Bomb Launcher" />Curling-Bomb Launcher</td>
+                                </tr>
+                                <tr>
+                                    <th>Aerospray RG</th>
+                                    <td><img src="images/weapons/Wst_Shooter_Blaze_01.png" alt="Aerospray RG" /></td>
+                                    <td><img src="images/subs/Wsb_Sprinkler.png" alt="Sprinkler" />Sprinkler</td>
+                                    <td><img src="images/specials/Wsp_AquaBall.png" alt="Baller" />Baller</td>
+                                </tr>
+                                <tr>
+                                    <th>.52 Gal</th>
+                                    <td><img src="images/weapons/Wst_Shooter_Gravity_00.png" alt=".52 Gal" /></td>
+                                    <td><img src="images/subs/Wsb_PointSensor.png" alt="Point Sensor" />Point Sensor</td>
+                                    <td><img src="images/specials/Wsp_AquaBall.png" alt="Baller" />Baller</td>
+                                </tr>
+                                <tr>
+                                    <th>.96 Gal</th>
+                                    <td><img src="images/weapons/Wst_Shooter_Heavy_00.png" alt=".96 Gal" /></td>
+                                    <td><img src="images/subs/Wsb_Sprinkler.png" alt="Sprinkler" />Sprinkler</td>
+                                    <td><img src="images/specials/Wsp_SuperArmor.png" alt="Ink Armor" />Ink Armor</td>
+                                </tr>
+                                <tr>
+                                    <th>L-3 Nozzlenose</th>
+                                    <td><img src="images/weapons/Wst_Shooter_TripleQuick_00.png" alt="L-3 Nozzlenose" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Curling.png" alt="Curling Bomb" />Curling Bomb</td>
+                                    <td><img src="images/specials/Wsp_AquaBall.png" alt="Baller" />Baller</td>
+                                </tr>
+                                <tr>
+                                    <th>H-3 Nozzlenose</th>
+                                    <td><img src="images/weapons/Wst_Shooter_TripleMiddle_00.png" alt="H-3 Nozzlenose" /></td>
+                                    <td><img src="images/subs/Wsb_PointSensor.png" alt="Point Sensor" />Point Sensor</td>
+                                    <td><img src="images/specials/Wsp_SuperMissile.png" alt="Tenta Missiles" />Tenta Missiles</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="nav-sloshers" role="tabpanel" aria-labelledby="nav-sloshers-tab">
+                        <table class="table table-striped table-bordered dt-responsive nowrap" id="sloshers-table">
+                            <thead class="thead-default">
+                                <tr>
+                                    <th>Name</th>
+                                    <th class="nosort">Image</th>
+                                    <th>Sub</th>
+                                    <th>Special</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>Slosher</th>
+                                    <td><img src="images/weapons/Wst_Slosher_Strong_00.png" alt="Slosher" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Suction.png" alt="Suction Bomb" />Suction Bomb</td>
+                                    <td><img src="images/specials/Wsp_SuperMissile.png" alt="Tenta Missiles" />Tenta Missiles</td>
+                                </tr>
+                                <tr>
+                                    <th>Hero Slosher Replica</th>
+                                    <td><img src="images/weapons/Wst_Slosher_Strong_H.png" alt="Hero Slosher Replica" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Suction.png" alt="Suction Bomb" />Suction Bomb</td>
+                                    <td><img src="images/specials/Wsp_SuperMissile.png" alt="Tenta Missiles" />Tenta Missiles</td>
+                                </tr>
+                                <tr>
+                                    <th>Tri-Slosher</th>
+                                    <td><img src="images/weapons/Wst_Slosher_Diffusion_00.png" alt="Tri-Slosher" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Quick.png" alt="Burst Bomb" />Burst Bomb</td>
+                                    <td><img src="images/specials/Wsp_SuperArmor.png" alt="Ink Armor" />Ink Armor</td>
+                                </tr>
+                                <tr>
+                                    <th>Sloshing Machine</th>
+                                    <td><img src="images/weapons/Wst_Slosher_Launcher_00.png" alt="Sloshing Machine" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Robo.png" alt="Autobomb" />Autobomb</td>
+                                    <td><img src="images/specials/Wsp_WaterCutter.png" alt="Sting Ray" />Sting Ray</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="nav-splatlings" role="tabpanel" aria-labelledby="nav-splatlings-tab">
+                        <table class="table table-striped table-bordered dt-responsive nowrap" id="splatlings-table">
+                            <thead class="thead-default">
+                                <tr>
+                                    <th>Name</th>
+                                    <th class="nosort">Image</th>
+                                    <th>Sub</th>
+                                    <th>Special</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>Mini Splatling</th>
+                                    <td><img src="images/weapons/Wst_Spinner_Quick_00.png" alt="Mini Splatling" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Quick.png" alt="Burst Bomb" />Burst Bomb</td>
+                                    <td><img src="images/specials/Wsp_SuperMissile.png" alt="Tenta Missiles" />Tenta Missiles</td>
+                                </tr>
+                                <tr>
+                                    <th>Heavy Splatling</th>
+                                    <td><img src="images/weapons/Wst_Spinner_Standard_00.png" alt="Heavy Splatling" /></td>
+                                    <td><img src="images/subs/Wsb_Sprinkler.png" alt="Sprinkler" />Sprinkler</td>
+                                    <td><img src="images/specials/Wsp_WaterCutter.png" alt="Sting Ray" />Sting Ray</td>
+                                </tr>
+                                <tr>
+                                    <th>Heavy Splatling Deco</th>
+                                    <td><img src="images/weapons/Wst_Spinner_Standard_01.png" alt="Heavy Splatling Deco" /></td>
+                                    <td><img src="images/subs/Wsb_Shield.png" alt="Splash Wall" />Splash Wall</td>
+                                    <td><img src="images/specials/Wsp_SuperBubble.png" alt="Bubble Blower" />Bubble Blower</td>
+                                </tr>
+                                <tr>
+                                    <th>Hero Splatling Replica</th>
+                                    <td><img src="images/weapons/Wst_Spinner_Standard_H.png" alt="Hero Splatling Replica" /></td>
+                                    <td><img src="images/subs/Wsb_Sprinkler.png" alt="Sprinkler" />Sprinkler</td>
+                                    <td><img src="images/specials/Wsp_WaterCutter.png" alt="Sting Ray" />Sting Ray</td>
+                                </tr>
+                                <tr>
+                                    <th>Hydra Splatling</th>
+                                    <td><img src="images/weapons/Wst_Spinner_Hyper_00.png" alt="Hydra Splatling" /></td>
+                                    <td><img src="images/subs/Wsb_Bomb_Robo.png" alt="Autobomb" />Autobomb</td>
+                                    <td><img src="images/specials/Wsp_SuperLanding.png" alt="Splashdown" />Splashdown</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
