@@ -1,0 +1,205 @@
+/*---- Validation ----*/
+
+
+.be-quiet {
+    display: none;
+}
+
+
+/*---- Navbar ----*/
+.nav-item a:hover {
+    text-decoration: none;
+    box-shadow: 0px 4px 0px #F7C331;
+}
+
+
+/*---- Carousel ----*/
+
+
+/* Fixes carousel size on large screens */
+@media (min-width: 992px) {
+    .carousel-item {
+        height: 25em;
+    }
+    .carousel-inner .carousel-item img{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%)
+    }
+}
+
+
+/*---- Jumbotrons ----*/
+
+
+/* Sets background image for gear jumbotron */
+#gear-jumbotron.jumbotron{
+    background: url("../images/jumbotron/gear-jumbo-4.jpg")
+        center center;
+    background-size: cover;
+}
+/* Sets background image for brands jumbotron */
+#brands-jumbotron.jumbotron{
+    background: url("../images/jumbotron/brands-jumbo-1-min.jpg")
+        center center;
+    background-size: cover;
+}
+/* Sets background image for abilities jumbotron */
+#abilities-jumbotron.jumbotron{
+    background: url("../images/jumbotron/abilities-jumbo-2-min.jpg")
+        center center;
+    background-size: cover;
+}
+/* Sets background image for weapons jumbotron */
+#weapons-jumbotron.jumbotron{
+    background: url("../images/jumbotron/weapons-jumbo-1-min.jpg")
+        center center;
+    background-size: cover;
+}
+/* Sets background image for gallery jumbotron */
+#gallery-jumbotron.jumbotron{
+    background: url("../images/jumbotron/gallery-jumbo-1.jpg")
+        center center;
+    background-size: cover;
+}
+/* Sets background image for gallery jumbotron */
+#sub-jumbotron.jumbotron{
+    background: url("../images/jumbotron/sub-jumbo-1.jpg")
+        center center;
+    background-size: cover;
+}
+/* Sets background image for gallery jumbotron */
+#specials-jumbotron.jumbotron{
+    background: url("../images/jumbotron/specials-jumbo-1.jpg")
+        center center;
+    background-size: cover;
+}
+/* Sets jumbotron color and stroke */
+/* Not sure why increasing font size makes the jumbotron larger */
+.jumbotron h1{
+    color: #FDFF00;
+    font-family: 'splatoon2regular', Helvetica, sans-serif;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+.jumbotron p{
+    color: #FDFF00;
+    font-family: 'splatoon2regular', Helvetica, sans-serif;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+
+
+/*---- Subs and Specials ----*/
+
+
+/* Sets button text when clicked. Should combine these later with wildcards */
+#specials-table .btn-primary:before {
+    content:'Click for details';
+}
+#specials-table .btn-primary[aria-expanded="true"]:before {
+    content:'Close Details';
+}
+#subs-table .btn-primary:before {
+    content:'Click for details';
+}
+#subs-table .btn-primary[aria-expanded="true"]:before {
+    content:'Close Details';
+}
+/* More Subs/Specials stuff */
+#subs-table td.collapse-row {
+    border-style: none;
+    padding: 0;
+}
+#specials-table td.collapse-row {
+    border-style: none;
+    padding: 0;
+}
+
+
+/*---- Gallery ----*/
+
+
+/* clearfix */
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.grid-sizer,
+.grid-item {
+    width: 20%;
+    overflow: hidden;
+}
+.grid-item {
+    float: left;
+    background-color: #FF197E;
+    border: 2px solid #FF197E;
+    border-color: hsla(337, 100%, 41.29%, 0.5);
+    border-radius: 5px;
+}
+.grid-item--width2 { width:  40%; }
+.grid-item--width3 { width:  60%; }
+
+.grid-item--height2 { height: 200px; }
+.grid-item--height3 { height: 260px; }
+.grid-item--height4 { height: 360px; }
+
+@media only screen and (max-width: 575px) {
+    .grid-sizer, .grid-item {
+        width: 100%
+    }
+}
+
+@media (min-width: 576px) {
+    .grid-sizer, .grid-item {
+        width: 100%
+    }
+}
+
+@media (min-width: 768px){
+    .grid-sizer, .grid-item {
+        width: 50%
+    }
+}
+@media (min-width: 992px){
+    .grid-sizer, .grid-item {
+        width: 33%
+    }
+}
+@media (min-width: 1200px) {
+    .grid-sizer, .grid-item {
+        width: 20%
+    }
+}
+
+
+/*---- Gear and Weapons ----*/
+
+
+.tab-content {
+    padding:10px;
+    border-left:1px solid #DDD;
+    border-bottom:1px solid #DDD;
+    border-right:1px solid #DDD;
+}
+/* Hold on to your butts, we're going up the DOM */
+/* Hide search bar on each tab */
+
+.container-fluid.dt-bootstrap4.no-footer div.row div.col-sm-12.col-md-6 .dataTables_filter {
+    display: none;
+}
+ /*Hide number of entries selector on each tab */
+.container-fluid.dt-bootstrap4.no-footer div.row div.col-sm-12.col-md-6 .dataTables_length {
+    display: none;
+}
+
+
+/*---- Submit ----*/
+.php-underline {
+    text-decoration: underline;
+}
+.php-quotes:before{
+    content: open-quote;
+}
+.php-quotes:after{
+    content: close-quote;
+}
