@@ -48,7 +48,7 @@ const APP_ROUTES : Routes = [
     BrowserModule,
     FormsModule,
     HttpClientModule,
-
+    NgbModule.forRoot(),
     RouterModule.forRoot(APP_ROUTES)
   ],
   providers: [LoggingService, DataService],
