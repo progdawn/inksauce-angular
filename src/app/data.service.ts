@@ -6,8 +6,23 @@ export class DataService {
 
   constructor(private http: HttpClient) { }
   
-    fetchData(){
-      return this.http.get('https://nn-angular-3abe7.firebaseio.com/.json')
+    fetchAbilities(){
+      return this.http.get('/data/abilities.json')
+    }
+    fetchBrands(){
+      return this.http.get('/data/brands.json')
+    }
+    fetchGear(){
+      return this.http.get('/data/gear.json')
+    }
+    fetchSpecials(){
+      return this.http.get('/data/specials.json')
+    }
+    fetchSubs(){
+      return this.http.get('/data/subs.json')
+    }
+    fetchWeapons(){
+      return this.http.get('/data/weapons.json')
     }
 
 }
