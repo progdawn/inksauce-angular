@@ -1,0 +1,200 @@
+[
+    {
+       "﻿Name": "SquidForce",
+       "Image": "images/brands/B00.png",
+       "Alt Text": "SquidForce",
+       "Common Ability": "Ink Resistance Up",
+       "Common Ability Image": "images/abilities/OpInkEffect_Reduction.png",
+       "Common Ability Description": "Decreases damage, speed, and jump penalties when standing in enemy Ink.",
+       "Uncommon Ability": "Ink Saver (Main)",
+       "Uncommon Ability Image": "images/abilities/MainInk_Save.png",
+       "Uncommon Ability Description": "Decreases Main Weapon Ink usage."
+    },
+    {
+       "﻿Name": "Zink",
+       "Image": "images/brands/B01.png",
+       "Alt Text": "Zink",
+       "Common Ability": "Quick Super Jump",
+       "Common Ability Image": "images/abilities/JumpTime_Save.png",
+       "Common Ability Description": "Increases Super Jump speed.",
+       "Uncommon Ability": "Quick Respawn",
+       "Uncommon Ability Image": "images/abilities/RespawnTime_Save.png",
+       "Uncommon Ability Description": "Reduces respawn time after getting splatted wthout splatting any opponents."
+    },
+    {
+       "﻿Name": "Krak-On",
+       "Image": "images/brands/B02.png",
+       "Alt Text": "Krak-On",
+       "Common Ability": "Swim Speed Up",
+       "Common Ability Image": "images/abilities/SquidMove_Up.png",
+       "Common Ability Description": "Increases movement speed while swimming in squid form.",
+       "Uncommon Ability": "Bomb Defense Up",
+       "Uncommon Ability Image": "images/abilities/BombDamage_Reduction.png",
+       "Uncommon Ability Description": "Reduces damage taken by blasts from sub weapons or special weapons."
+    },
+    {
+       "﻿Name": "Rockenberg",
+       "Image": "images/brands/B03.png",
+       "Alt Text": "Rockenberg",
+       "Common Ability": "Run Speed Up",
+       "Common Ability Image": "images/abilities/HumanMove_Up.png",
+       "Common Ability Description": "Increases movement speed in humanoid form.",
+       "Uncommon Ability": "Swim Speed Up",
+       "Uncommon Ability Image": "images/abilities/SquidMove_Up.png",
+       "Uncommon Ability Description": "Increases movement speed while swimming in squid form."
+    },
+    {
+       "﻿Name": "Zekko",
+       "Image": "images/brands/B04.png",
+       "Alt Text": "Zekko",
+       "Common Ability": "Special Saver",
+       "Common Ability Image": "images/abilities/RespawnSpecialGauge_Save.png",
+       "Common Ability Description": "Decreases Special Gauge loss after being splatted.",
+       "Uncommon Ability": "Special Charge Up",
+       "Uncommon Ability Image": "images/abilities/SpecialIncrease_Up.png",
+       "Uncommon Ability Description": "Increases the rate at which the Special Gauge fills."
+    },
+    {
+       "﻿Name": "Forge",
+       "Image": "images/brands/B05.png",
+       "Alt Text": "Forge",
+       "Common Ability": "Special Power Up",
+       "Common Ability Image": "images/abilities/SpecialTime_Up.png",
+       "Common Ability Description": "Improves effectiveness of Special Weapon.",
+       "Uncommon Ability": "Ink Saver (Sub)",
+       "Uncommon Ability Image": "images/abilities/SubInk_Save.png",
+       "Uncommon Ability Description": "Decreases Sub Weapon Ink usage."
+    },
+    {
+       "﻿Name": "Firefin",
+       "Image": "images/brands/B06.png",
+       "Alt Text": "Firefin",
+       "Common Ability": "Ink Saver (Sub)",
+       "Common Ability Image": "images/abilities/SubInk_Save.png",
+       "Common Ability Description": "Decreases Sub Weapon Ink usage.",
+       "Uncommon Ability": "Ink Recovery Up",
+       "Uncommon Ability Image": "images/abilities/InkRecovery_Up.png",
+       "Uncommon Ability Description": "Increases Ink Tank refill rate while in squid form."
+    },
+    {
+       "﻿Name": "Skalop",
+       "Image": "images/brands/B07.png",
+       "Alt Text": "Skalop",
+       "Common Ability": "Quick Respawn",
+       "Common Ability Image": "images/abilities/RespawnTime_Save.png",
+       "Common Ability Description": "Reduces respawn time after getting splatted wthout splatting any opponents.",
+       "Uncommon Ability": "Special Saver",
+       "Uncommon Ability Image": "images/abilities/RespawnSpecialGauge_Save.png",
+       "Uncommon Ability Description": "Decreases Special Gauge loss after being splatted."
+    },
+    {
+       "﻿Name": "Splash Mob",
+       "Image": "images/brands/B08.png",
+       "Alt Text": "Splash Mob",
+       "Common Ability": "Ink Saver (Main)",
+       "Common Ability Image": "images/abilities/MainInk_Save.png",
+       "Common Ability Description": "Decreases Main Weapon Ink usage.",
+       "Uncommon Ability": "Run Speed Up",
+       "Uncommon Ability Image": "images/abilities/HumanMove_Up.png",
+       "Uncommon Ability Description": "Increases movement speed in humanoid form."
+    },
+    {
+       "﻿Name": "Inkline",
+       "Image": "images/brands/B09.png",
+       "Alt Text": "Inkline",
+       "Common Ability": "Bomb Defense Up",
+       "Common Ability Image": "images/abilities/BombDamage_Reduction.png",
+       "Common Ability Description": "Reduces damage taken by blasts from sub weapons or special weapons.",
+       "Uncommon Ability": "Cold-Blooded",
+       "Uncommon Ability Image": "images/abilities/MarkingTime_Reduction.png",
+       "Uncommon Ability Description": "Shortens the duration of position trackers."
+    },
+    {
+       "﻿Name": "Tentatek",
+       "Image": "images/brands/B10.png",
+       "Alt Text": "Tentatek",
+       "Common Ability": "Ink Recovery Up",
+       "Common Ability Image": "images/abilities/InkRecovery_Up.png",
+       "Common Ability Description": "Increases Ink Tank refill rate while in squid form.",
+       "Uncommon Ability": "Quick Super Jump",
+       "Uncommon Ability Image": "images/abilities/JumpTime_Save.png",
+       "Uncommon Ability Description": "Increases Super Jump speed."
+    },
+    {
+       "﻿Name": "Takoroka",
+       "Image": "images/brands/B11.png",
+       "Alt Text": "Takoroka",
+       "Common Ability": "Special Charge Up",
+       "Common Ability Image": "images/abilities/SpecialIncrease_Up.png",
+       "Common Ability Description": "Increases the rate at which the Special Gauge fills.",
+       "Uncommon Ability": "Special Power Up",
+       "Uncommon Ability Image": "images/abilities/SpecialTime_Up.png",
+       "Uncommon Ability Description": "Improves effectiveness of Special Weapon."
+    },
+    {
+       "﻿Name": "Annaki",
+       "Image": "images/brands/B15.png",
+       "Alt Text": "Annaki",
+       "Common Ability": "Cold-Blooded",
+       "Common Ability Image": "images/abilities/MarkingTime_Reduction.png",
+       "Common Ability Description": "Shortens the duration of position trackers.",
+       "Uncommon Ability": "Special Saver",
+       "Uncommon Ability Image": "images/abilities/RespawnSpecialGauge_Save.png",
+       "Uncommon Ability Description": "Decreases Special Gauge loss after being splatted."
+    },
+    {
+       "﻿Name": "Enperry",
+       "Image": "images/brands/B16.png",
+       "Alt Text": "Enperry",
+       "Common Ability": "Sub Power Up",
+       "Common Ability Image": "images/abilities/BombDistance_Up.png",
+       "Common Ability Description": "Increases performance of Sub Weapons.",
+       "Uncommon Ability": "Ink Resistance Up",
+       "Uncommon Ability Image": "images/abilities/OpInkEffect_Reduction.png",
+       "Uncommon Ability Description": "Decreases damage, speed, and jump penalties when standing in enemy Ink."
+    },
+    {
+       "﻿Name": "Toni Kensa",
+       "Image": "images/brands/B17.png",
+       "Alt Text": "Toni Kensa",
+       "Common Ability": "Cold-Blooded",
+       "Common Ability Image": "images/abilities/MarkingTime_Reduction.png",
+       "Common Ability Description": "Shortens the duration of position trackers.",
+       "Uncommon Ability": "Sub Power Up",
+       "Uncommon Ability Image": "images/abilities/BombDistance_Up.png",
+       "Uncommon Ability Description": "Increases performance of Sub Weapons."
+    },
+    {
+       "﻿Name": "Grizzco",
+       "Image": "images/brands/B97.png",
+       "Alt Text": "Grizzco",
+       "Common Ability": "None",
+       "Common Ability Image": "images/abilities/none.png",
+       "Common Ability Description": "None",
+       "Uncommon Ability": "None",
+       "Uncommon Ability Image": "images/abilities/none.png",
+       "Uncommon Ability Description": "None"
+    },
+    {
+       "﻿Name": "Cuttlegear",
+       "Image": "images/brands/B98.png",
+       "Alt Text": "Cuttlegear",
+       "Common Ability": "None",
+       "Common Ability Image": "images/abilities/none.png",
+       "Common Ability Description": "None",
+       "Uncommon Ability": "None",
+       "Uncommon Ability Image": "images/abilities/none.png",
+       "Uncommon Ability Description": "None"
+    },
+    {
+       "﻿Name": "amiibo",
+       "Image": "images/brands/B99.png",
+       "Alt Text": "amiibo",
+       "Common Ability": "None",
+       "Common Ability Image": "images/abilities/none.png",
+       "Common Ability Description": "None",
+       "Uncommon Ability": "None",
+       "Uncommon Ability Image": "images/abilities/none.png",
+       "Uncommon Ability Description": "None"
+    }
+ ]
