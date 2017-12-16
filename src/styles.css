@@ -36,43 +36,43 @@
 
 /* Sets background image for gear jumbotron */
 #gear-jumbotron.jumbotron{
-    background: url("../public/images/jumbotron/gear-jumbo-4.jpg")
+    background: url("assets/images/jumbotron/gear-jumbo-4.jpg")
         center center;
     background-size: cover;
 }
 /* Sets background image for brands jumbotron */
 #brands-jumbotron.jumbotron{
-    background: url("../public/images/jumbotron/brands-jumbo-1-min.jpg")
+    background: url("assets/images/jumbotron/brands-jumbo-1-min.jpg")
         center center;
     background-size: cover;
 }
 /* Sets background image for abilities jumbotron */
 #abilities-jumbotron.jumbotron{
-    background: url("../public/images/jumbotron/abilities-jumbo-2-min.jpg")
+    background: url("assets/images/jumbotron/abilities-jumbo-2-min.jpg")
         center center;
     background-size: cover;
 }
 /* Sets background image for weapons jumbotron */
 #weapons-jumbotron.jumbotron{
-    background: url("../public/images/jumbotron/weapons-jumbo-1-min.jpg")
+    background: url("assets/images/jumbotron/weapons-jumbo-1-min.jpg")
         center center;
     background-size: cover;
 }
 /* Sets background image for gallery jumbotron */
 #gallery-jumbotron.jumbotron{
-    background: url("../public/images/jumbotron/gallery-jumbo-1.jpg")
+    background: url("assets/images/jumbotron/gallery-jumbo-1.jpg")
         center center;
     background-size: cover;
 }
 /* Sets background image for gallery jumbotron */
 #sub-jumbotron.jumbotron{
-    background: url("../public/images/jumbotron/sub-jumbo-1.jpg")
+    background: url("assets/images/jumbotron/sub-jumbo-1.jpg")
         center center;
     background-size: cover;
 }
 /* Sets background image for gallery jumbotron */
 #specials-jumbotron.jumbotron{
-    background: url("../public/images/jumbotron/specials-jumbo-1.jpg")
+    background: url("assets/images/jumbotron/specials-jumbo-1.jpg")
         center center;
     background-size: cover;
 }
