@@ -21,7 +21,17 @@
                       </tr>
                   </thead>
                   <tbody>
-                      <tr>
+                      <tr *ngFor="let brand of brands">
+                          <th scope="row">{{brand.Name}}</th>
+                          <td><img src="../../assets/{{brand.Image}}"></td>
+                          <td>{{brand.CommonAbility}}</td>
+                          <td><img src="../../assets/{{brand.CommonAbilityImage}}" ></td>
+                          <td>{{brand.CommonAbilityDescription}}</td>
+                          <td>{{brand.UncommonAbility}}</td>
+                          <td><img src="../../assets/{{brand.UncommonAbilityImage}}" ></td>
+                          <td>{{brand.UncommonAbilityDescription}}</td>
+                      </tr>
+                      <!-- <tr>
                           <th scope="row">SquidForce</th>
                           <td><img src="../../assets/images/brands/B00.png" alt="brand-image"></td>
                           <td>Ink Resistance Up</td>
@@ -200,7 +210,7 @@
                           <td>None</td>
                           <td><img src="../../assets/images/abilities/none.png" alt="uncommon-ability"></td>
                           <td>None</td>
-                      </tr>
+                      </tr> -->
                   </tbody>
               </table>
           </div>
