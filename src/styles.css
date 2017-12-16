@@ -1,7 +1,7 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 @font-face {
     font-family: "splatoon2regular";
-    src: url("assets/fonts/splatoon2-webfont.eot");
+    src: url("assets/fonts/splatoon2-webfont.ttf");
 }
 
 /*---- Validation ----*/
