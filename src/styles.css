@@ -4,13 +4,6 @@
     src: url("assets/fonts/splatoon2-webfont.ttf");
 }
 
-/*---- Validation ----*/
-
-
-.be-quiet {
-    display: none;
-}
-
 
 /*---- Navbar ----*/
 .nav-item a:hover {

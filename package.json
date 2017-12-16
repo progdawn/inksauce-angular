@@ -27,6 +27,7 @@
     "core-js": "^2.4.1",
     "font-awesome": "^4.7.0",
     "jquery": "^1.9.1",
+    "ng4-twitter-timeline": "^1.0.8",
     "popper.js": "^1.12.3",
     "rxjs": "^5.5.2",
     "zone.js": "^0.8.14"

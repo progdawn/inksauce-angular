@@ -6,6 +6,7 @@ import {HttpClientModule} from '@angular/common/http';
 import {LoggingService} from './logging.service';
 import {DataService} from './data.service';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { Ng4TwitterTimelineModule } from 'ng4-twitter-timeline/lib/index';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -49,7 +50,8 @@ const APP_ROUTES : Routes = [
     FormsModule,
     HttpClientModule,
     NgbModule.forRoot(),
-    RouterModule.forRoot(APP_ROUTES)
+    RouterModule.forRoot(APP_ROUTES),
+    Ng4TwitterTimelineModule
   ],
   providers: [LoggingService, DataService],
   bootstrap: [AppComponent]
