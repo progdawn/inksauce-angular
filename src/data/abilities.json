@@ -1,156 +1,156 @@
 [
     {
-       "﻿Name": "Ability Doubler",
+       "Name": "Ability Doubler",
        "Image": "images/abilities/ExSkillDouble.png",
        "Description": "Doubles the effect of other gear abilities attached to this gear.",
        "Source": "clothes"
     },
     {
-       "﻿Name": "Bomb Defense Up",
+       "Name": "Bomb Defense Up",
        "Image": "images/abilities/BombDamage_Reduction.png",
        "Description": "Reduces damage taken by blasts from sub weapons or special weapons.",
        "Source": "inkline"
     },
     {
-       "﻿Name": "Cold-Blooded",
+       "Name": "Cold-Blooded",
        "Image": "images/abilities/MarkingTime_Reduction.png",
        "Description": "Shortens the duration of position trackers.",
        "Source": "Toni Kensa"
     },
     {
-       "﻿Name": "Comeback",
+       "Name": "Comeback",
        "Image": "images/abilities/ComeBack.png",
        "Description": "Boosts some of your abilities for a short time after respawning.",
        "Source": "head"
     },
     {
-       "﻿Name": "Drop Roller",
+       "Name": "Drop Roller",
        "Image": "images/abilities/SomersaultLanding.png",
        "Description": "Tilting the L Stick during a Super Jump allows you to perform a forward or sideways roll when you land.",
        "Source": "shoes"
     },
     {
-       "﻿Name": "Haunt",
+       "Name": "Haunt",
        "Image": "images/abilities/DeathMarking.png",
        "Description": "Once you've respawned, reveals the position of the player who splatted you.",
        "Source": "clothes"
     },
     {
-       "﻿Name": "Ink Recovery Up",
+       "Name": "Ink Recovery Up",
        "Image": "images/abilities/InkRecovery_Up.png",
        "Description": "Increases Ink Tank refill rate while in squid form.",
        "Source": "Tentatek"
     },
     {
-       "﻿Name": "Ink Resistance Up",
+       "Name": "Ink Resistance Up",
        "Image": "images/abilities/OpInkEffect_Reduction.png",
        "Description": "Decreases damage, speed, and jump penalties when standing in enemy Ink.",
        "Source": "SquidForce"
     },
     {
-       "﻿Name": "Ink Saver (Main)",
+       "Name": "Ink Saver (Main)",
        "Image": "images/abilities/MainInk_Save.png",
        "Description": "Decreases Main Weapon Ink usage.",
        "Source": "Splash Mob"
     },
     {
-       "﻿Name": "Ink Saver (Sub)",
+       "Name": "Ink Saver (Sub)",
        "Image": "images/abilities/SubInk_Save.png",
        "Description": "Decreases Sub Weapon Ink usage.",
        "Source": "Firefin"
     },
     {
-       "﻿Name": "Last-Ditch Effort",
+       "Name": "Last-Ditch Effort",
        "Image": "images/abilities/EndAllUp.png",
        "Description": "Boosts ink recovert rate and weapon ink efficiency for the last 30 seconds of battle.",
        "Source": "head"
     },
     {
-       "﻿Name": "Ninja Squid",
+       "Name": "Ninja Squid",
        "Image": "images/abilities/SquidMoveSpatter_Reduction.png",
        "Description": "Leaves no trace when swimming in inked ground, but slightly reduces swim speed.",
        "Source": "clothes"
     },
     {
-       "﻿Name": "Object Shredder",
+       "Name": "Object Shredder",
        "Image": "images/abilities/ObjectEffect_Up.png",
        "Description": "Increases damage dealt to all non-player targets.",
        "Source": "shoes"
     },
     {
-       "﻿Name": "Opening Gambit",
+       "Name": "Opening Gambit",
        "Image": "images/abilities/StartAllUp.png",
        "Description": "Boosts your speed in both inkling and squid form for the first 30 seconds of battle.",
        "Source": "head"
     },
     {
-       "﻿Name": "Quick Respawn",
+       "Name": "Quick Respawn",
        "Image": "images/abilities/RespawnTime_Save.png",
        "Description": "Reduces respawn time after getting splatted wthout splatting any opponents.",
        "Source": "Skalop"
     },
     {
-       "﻿Name": "Quick Super Jump",
+       "Name": "Quick Super Jump",
        "Image": "images/abilities/JumpTime_Save.png",
        "Description": "Increases Super Jump speed.",
        "Source": "Zink"
     },
     {
-       "﻿Name": "Respawn Punisher",
+       "Name": "Respawn Punisher",
        "Image": "images/abilities/Exorcist.png",
        "Description": "Increases respawn time and special-gauge spawn penalty for you and any player who splats you.",
        "Source": "clothes"
     },
     {
-       "﻿Name": "Run Speed Up",
+       "Name": "Run Speed Up",
        "Image": "images/abilities/HumanMove_Up.png",
        "Description": "Increases movement speed in humanoid form.",
        "Source": "Rockenberg"
     },
     {
-       "﻿Name": "Special Charge Up",
+       "Name": "Special Charge Up",
        "Image": "images/abilities/SpecialIncrease_Up.png",
        "Description": "Increases the rate at which the Special Gauge fills.",
        "Source": "Takoroka"
     },
     {
-       "﻿Name": "Special Power Up",
+       "Name": "Special Power Up",
        "Image": "images/abilities/SpecialTime_Up.png",
        "Description": "Improves effectiveness of Special Weapon.",
        "Source": "Forge"
     },
     {
-       "﻿Name": "Special Saver",
+       "Name": "Special Saver",
        "Image": "images/abilities/RespawnSpecialGauge_Save.png",
        "Description": "Decreases Special Gauge loss after being splatted.",
        "Source": "Zekko"
     },
     {
-       "﻿Name": "Stealth Jump",
+       "Name": "Stealth Jump",
        "Image": "images/abilities/SuperJumpSign_Hide.png",
        "Description": "Hides you Super Jump landing point from distant players.",
        "Source": "shoes"
     },
     {
-       "﻿Name": "Sub Power Up",
+       "Name": "Sub Power Up",
        "Image": "images/abilities/BombDistance_Up.png",
        "Description": "Increases performance of Sub Weapons.",
        "Source": "Enperry"
     },
     {
-       "﻿Name": "Swim Speed Up",
+       "Name": "Swim Speed Up",
        "Image": "images/abilities/SquidMove_Up.png",
        "Description": "Increases movement speed while swimming in squid form.",
        "Source": "Krak-On"
     },
     {
-       "﻿Name": "Tenacity",
+       "Name": "Tenacity",
        "Image": "images/abilities/MinorityUp.png",
        "Description": "Fills special gauge automatically if your team has fewer active players that the enemy team.",
        "Source": "head"
     },
     {
-       "﻿Name": "Thermal Ink",
+       "Name": "Thermal Ink",
        "Image": "images/abilities/ThermalInk.png",
        "Description": "Allows you to track distant players hit with shots from your main weapon.",
        "Source": "clothes"
