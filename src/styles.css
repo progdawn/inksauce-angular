@@ -19,22 +19,6 @@
 }
 
 
-/*---- Carousel ----*/
-
-
-/* Fixes carousel size on large screens */
-@media (min-width: 992px) {
-    .carousel-item {
-        height: 25em;
-    }
-    .carousel-inner .carousel-item img{
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%)
-    }
-}
-
-
 /*---- Jumbotrons ----*/
 
 
