@@ -1,3 +1,10 @@
+
+My final project ITDEV 161. A website for Splatoon 2.
+
+Working off of a project I played with over the summer, this is a website that has some references and resources for the Nintento Switch game Splatoon 2.
+
+Building off my [last project for VICOM 128](https://github.com/progdawn/progdawn.github.io), I will create the site using Angular 2.
+
 # InksauceAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.0.
