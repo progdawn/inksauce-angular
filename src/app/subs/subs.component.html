@@ -17,12 +17,44 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr *ngFor="let sub of subs">
-                            <th scope="row">{{sub.Name}}</th>
-                            <td><img src="../../assets/{{sub.Image}}"></td>
-                            <td>{{sub.Description}}</td>
-                            <td><button class="btn btn-outline-primary" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls = "collapseExample"></button></td>
-                        </tr>
+                        <!-- The reason this shit ain't working is because ngbCollapsed is applying either collapse show or collapse to all of the <tr>s. I need to find out how to make it apply specifically to the one I'm clicking. Maybe I'll just toss out ng-bootstrap alltogether for this -->
+                        <div class="container" *ngFor="let sub of subs; index as i">
+                            <tr>
+                                <th scope="row">{{sub.Name}}</th>
+                                <td><img src="../../assets/{{sub.Image}}"></td>
+                                <td>{{sub.Description}}</td>
+                                <td><button class="btn btn-outline-primary" (click)="collapseRow('#collapse-' + i)" [attr.aria-expanded]="!isCollapsed" [attr.aria-controls] = "'#collapse-' + i" [attr.data-target]="'#collapse-' + i"></button></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class="collapse-row">
+                                    <div [attr.id]="'collapse-' + i" [ngbCollapse]="isCollapsed">
+                                        <div class="row">
+                                            <div class="col">Min Splash Damage: 25</div> 
+                                            <div class="col">Splash Damage: 35</div>
+                                            <div class="col">Direct Hit Damage: 60</div>
+                                            <div class="col">Ink Consumption: 40%</div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </div>
+
+                        <!-- <div class="bs-example">
+                                <div class="panel-group" [attr.id]="'accordion_' + i" *ngFor="let message of messages; let i = index;">
+                                    <div class="panel panel-default" >
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" [attr.data-parent]="'#accordion_' + i" [attr.href]="'#collapseOne_' + i">{{ message.firstName }} {{ message.lastName }}</a>
+                                            </h4>
+                                        </div>
+                                        <div [attr.id]="'collapseOne_' + i" class="panel-collapse collapse in">
+                                            <div class="panel-body">
+                                              details here {{ message.empId }}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
 
                         <!-- <tr *ngFor="let brand of brands">
                                 <th scope="row">{{brand.Name}}</th>
