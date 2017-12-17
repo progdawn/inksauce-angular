@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {LoggingService} from '../logging.service';
 import {DataService} from '../data.service';
 
 @Component({
@@ -12,11 +11,7 @@ export class BrandsComponent implements OnInit {
 
   brands:any = [];
 
-  constructor(private logger:LoggingService, private dataService: DataService) { }
-
-  logIt(){
-    this.logger.log();
-  }
+  constructor(private dataService: DataService) { }
 
   ngOnInit() {
     this.dataService.fetchBrands().subscribe(
