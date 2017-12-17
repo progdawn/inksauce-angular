@@ -17,7 +17,27 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr *ngFor="let sub of subs">
+                            <th scope="row">{{sub.Name}}</th>
+                            <td><img src="../../assets/{{sub.Image}}"></td>
+                            <td>{{sub.Description}}</td>
+                            <td><button class="btn btn-outline-primary" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls = "collapseExample"></button></td>
+                        </tr>
+
+                        <!-- <tr *ngFor="let brand of brands">
+                                <th scope="row">{{brand.Name}}</th>
+                                <td><img src="../../assets/{{brand.Image}}"></td>
+                                <td>{{brand.CommonAbility}}</td>
+                                <td><img src="../../assets/{{brand.CommonAbilityImage}}" ></td>
+                                <td>{{brand.CommonAbilityDescription}}</td>
+                                <td>{{brand.UncommonAbility}}</td>
+                                <td><img src="../../assets/{{brand.UncommonAbilityImage}}" ></td>
+                                <td>{{brand.UncommonAbilityDescription}}</td>
+                            </tr> -->
+
+
+
+                        <!-- <tr>
                             <th scope="row">Burst Bomb</th>
                             <td><img src="../../assets/images/subs/Wsb_Bomb_Quick.png" alt="sub-weapon"></td>
                             <td>Burst Bombs are spherical balloons filled with ink that explode on contact. They use less ink than Splat Bombs, and Suction Bombs, and therefore cause less damage.</td>
@@ -246,7 +266,7 @@
                                     </div>
                                 </div>
                             </td>
-                        </tr>
+                        </tr> -->
                     </tbody>
                 </table>
             </div>
