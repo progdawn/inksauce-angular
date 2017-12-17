@@ -18,7 +18,7 @@
                     </thead>
                     <tbody>
                         <!-- The reason this shit ain't working is because ngbCollapsed is applying either collapse show or collapse to all of the <tr>s. I need to find out how to make it apply specifically to the one I'm clicking. Maybe I'll just toss out ng-bootstrap alltogether for this -->
-                        <div class="container" *ngFor="let sub of subs; index as i">
+                        <!-- <div class="container" *ngFor="let sub of subs; index as i">
                             <tr>
                                 <th scope="row">{{sub.Name}}</th>
                                 <td><img src="../../assets/{{sub.Image}}"></td>
@@ -37,37 +37,43 @@
                                     </div>
                                 </td>
                             </tr>
-                        </div>
-
-                        <!-- <div class="bs-example">
-                                <div class="panel-group" [attr.id]="'accordion_' + i" *ngFor="let message of messages; let i = index;">
-                                    <div class="panel panel-default" >
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" [attr.data-parent]="'#accordion_' + i" [attr.href]="'#collapseOne_' + i">{{ message.firstName }} {{ message.lastName }}</a>
-                                            </h4>
-                                        </div>
-                                        <div [attr.id]="'collapseOne_' + i" class="panel-collapse collapse in">
-                                            <div class="panel-body">
-                                              details here {{ message.empId }}
-                                            </div>
+                        </div> -->
+                        <ng-container *ngFor="let sub of subs; index as i">
+                            <tr>
+                                <th scope="row">{{sub.Name}}</th>
+                                <td><img src="../../assets/{{sub.Image}}"></td>
+                                <td>{{sub.Description}}</td>
+                                <td>
+                                    <button class="btn btn-outline-primary btn-block" type="button" data-toggle="collapse" [attr.data-target]="'#collapse-' + i" [attr.aria-expanded]="false" [attr.aria-controls] = "'collapse-' + i"></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class="collapse-row">
+                                    <div [attr.id]="'collapse-' + i" class="container collapse out">
+                                        <div class="row">
+                                            <div class="col">Min Splash Damage: 25</div> 
+                                            <div class="col">Splash Damage: 35</div>
+                                            <div class="col">Direct Hit Damage: 60</div>
+                                            <div class="col">Ink Consumption: 40%</div>
                                         </div>
                                     </div>
-                                </div>
-                            </div> -->
-
-                        <!-- <tr *ngFor="let brand of brands">
-                                <th scope="row">{{brand.Name}}</th>
-                                <td><img src="../../assets/{{brand.Image}}"></td>
-                                <td>{{brand.CommonAbility}}</td>
-                                <td><img src="../../assets/{{brand.CommonAbilityImage}}" ></td>
-                                <td>{{brand.CommonAbilityDescription}}</td>
-                                <td>{{brand.UncommonAbility}}</td>
-                                <td><img src="../../assets/{{brand.UncommonAbilityImage}}" ></td>
-                                <td>{{brand.UncommonAbilityDescription}}</td>
-                            </tr> -->
-
-
+                                </td>
+                            </tr>
+                        </ng-container>
+                        <!-- <tr>
+                            <ngb-accordion #acc="ngbAccordion" *ngFor="let sub of subs; index as i" activeIds="collapseRow('#collapse-' + i)">
+                                <ngb-panel title="Simple">
+                                <ng-template ngbPanelContent>
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia
+                                    aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                    sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                                    craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                                    occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                    labore sustainable VHS.
+                                </ng-template>
+                                </ngb-panel>
+                            </ngb-accordion>
+                        </tr> -->
 
                         <!-- <tr>
                             <th scope="row">Burst Bomb</th>

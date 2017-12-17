@@ -10,11 +10,6 @@ import {DataService} from '../data.service';
 export class SubsComponent implements OnInit {
 
   subs:any = [];
-  isCollapsed = true;
-
-  collapseRow(event){
-    this.isCollapsed = !this.isCollapsed;
-  }
 
   constructor(private dataService: DataService) { }
 
