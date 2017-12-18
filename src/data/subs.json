@@ -1,106 +1,117 @@
 [
-    {
-       "Name": "Burst Bomb",
-       "Image": "images/subs/Wsb_Bomb_Quick.png",
-       "AltText": "Burst Bomb",
-       "Description": "Burst Bombs are spherical balloons filled with ink that explode on contact. They use less ink than Splat Bombs, and Suction Bombs, and therefore cause less damage.",
-       "MinSplashDamage": 25,
-       "DamageOnContact": 35,
-       "DirectHitDamage": 60,
-       "InkConsumption": 40
-    },
-    {
-       "Name": "Curling Bomb",
-       "Image": "images/subs/Wsb_Bomb_Curling.png",
-       "AltText": "Curling Bomb",
-       "Description": "When deployed, the Curling Bomb travels in a straight line across the floor, leaving a trail of Ink and bouncing off of any wall or obstacle it encounters. It explodes after it has traveled its maximum distance. The maximum distance of the Curling Bomb may be shortened by charging, or 'cooking' it with R before release.",
-       "MinSplashDamage": 30,
-       "DirectHitDamage": 150,
-       "InkConsumption": 70
-    },
-    {
-       "Name": "Autobomb",
-       "Image": "images/subs/Wsb_Bomb_Robo.png",
-       "AltText": "Autobomb",
-       "Description": "Autobombs are comparable to S Weapon Sub Seekers from Splatoon. Unlike the Seeker however, they do not leave a trail of ink and can freely change direction. Once thrown, the Autobomb will seek out any enemy players in the vicinity, indicated by the circle which appears once the autobomb has landed, and will automatically move towards them for quite a long time. Once the Autobomb reaches a player or travels far enough without reaching the player, it will explode. If thrown and no enemies are in range, the Autobomb will automatically explode where it was thrown, similar to a S2 Weapon Sub Splat Bomb.",
-       "MinSplashDamage": 30,
-       "DirectHitDamage": 150,
-       "InkConsumption": 70
-    },
-    {
-       "Name": "Splat Bomb",
-       "Image": "images/subs/Wsb_Bomb_Splash.png",
-       "AltText": "Splat Bomb",
-       "Description": "When thrown, a second after touching a surface, the Splat Bomb explodes and coats the area in its respective team's color. Splat Bombs will not explode in mid-air; they can only explode after touching an object.",
-       "MinSplashDamage": 30,
-       "DirectHitDamage": 180,
-       "InkConsumption": 70,
-       "Explosion": 1,
-       "ExplosionModifier": "after contact"
-    },
-    {
-       "Name": "Suction Bomb",
-       "Image": "images/subs/Wsb_Bomb_Suction.png",
-       "AltText": "Suction Bomb",
-       "Description": "Suction Bombs can be thrown and are able to attach to virtually any surface, including walls and ceilings. After two seconds, they explode in a burst of ink. Throwing a Suction Bomb will use up 70% of player's Ink Tank under normal circumstances, just like the Splat Bomb. They will also immediately explode upon contact with the Rainmaker's shield or a Splash Wall.",
-       "MinSplashDamage": 30,
-       "DirectHitDamage": 180,
-       "InkConsumption": 70,
-       "Explosion": 2,
-       "ExplosionModifier": "after deployed"
-    },
-    {
-       "Name": "Squid Beakon",
-       "Image": "images/subs/Wsb_Flag.png",
-       "AltText": "Squid Beakon",
-       "Description": "Squid Beakons are small devices placed at the user's feet that can be Super Jumped to by allies. A Beakon is destroyed when the Super Jumping Inkling lands or when it is damaged by an enemy. One Inkling using Beakons can have up to three placed in the stage at one time; attempting to create a fourth will destroy the oldest of those currently active.",
-       "InkConsumption": 75
-    },
-    {
-       "Name": "Point Sensor",
-       "Image": "images/subs/Wsb_PointSensor.png",
-       "AltText": "Point Sensor",
-       "Description": "Point Sensors are black, cube-like objects with cylinder-shaped protrusions that change color depending on the player's Ink. When thrown, they explode in a spherical cloud that has the color of the player's ink and tag any enemy Inkling in a certain range with a swirling squid marker. This marker allows tagged enemies to be seen through barriers by all teammates, allowing them to be easily tracked.",
-       "BaseDuration": 8,
-       "BaseDurationModifier": "upon contact",
-       "InkConsumption": 60
-    },
-    {
-       "Name": "Toxic Mist",
-       "Image": "images/subs/Wsb_PoisonFog.png",
-       "AltText": "Toxic Mist",
-       "Description": "When thrown, Toxic Mist surrounds a circular area in fog. Opponents caught in the fog move more slowly and gradually lose ink. Players that stay in the fog for a longer period of time are more severely affected.",
-       "BaseDuration": 7,
-       "BaseDurationModifier": "after deployed",
-       "InkConsumption": 70
-    },
-    {
-       "Name": "Splash Wall",
-       "Image": "images/subs/Wsb_Shield.png",
-       "AltText": "Splash Wall",
-       "Description": "The Splash Wall forms a temporary barrier of falling ink, preventing enemy fire from passing through. Opponents will instantly get splattered if they attempt to walk through the Splash Wall, but the player who spawned it and their teammates will have no effect. These players will also be able to shoot through the wall. A similar weapon is also used by the Octarians in Octo Valley.",
-       "BaseDamage": 50,
-       "BaseDamageModifier": "per frame",
-       "BaseDuration": 7,
-       "BaseDurationModifier": "when not damaged",
-       "InkConsumption": 60
-    },
-    {
-       "Name": "Sprinkler",
-       "Image": "images/subs/Wsb_Sprinkler.png",
-       "AltText": "Sprinkler",
-       "Description": "The Sprinkler was tweaked in Splatoon 2 to have its inking power start out stronger but weaken over time. There are four distinct phases: Deployment, High-power, Mid-power, and Low-power.",
-       "BaseDamage": 20,
-       "BaseDuration": "placeholder",
-       "InkConsumption": 70
-    },
-    {
-       "Name": "Ink Mine",
-       "Image": "images/subs/Wsb_TimerTrap.png",
-       "AltText": "Ink Mine",
-       "Description": "Up to two Ink Mines can now be placed at once, and if anyone hit by a mine survives their position will be temporarily marked as if they were exposed to a Point Sensor. Ink Mines do not detonate on their own, so they will remain on the battlefield until triggered. Each Ink Mine uses 60% of the ink tank's capacity. It deals 35 damage to opponents caught directly in the blast, and 20 damage to those near the blast.",
-       "BaseDamage": 35,
-       "MinSplashDamage": 20,
-       "InkConsumption": 60
-    }
- ]
+   {
+      "ID": 1,
+      "Name": "Burst Bomb",
+      "Image": "images/subs/Wsb_Bomb_Quick.png",
+      "AltText": "Burst Bomb",
+      "Description": "Burst Bombs are spherical balloons filled with ink that explode on contact. They use less ink than Splat Bombs, and Suction Bombs, and therefore cause less damage.",
+      "MinSplashDamage": 25,
+      "DamageOnContact": 35,
+      "DirectHitDamage": 60,
+      "InkConsumption": 40
+   },
+   {
+      "ID": 2,
+      "Name": "Curling Bomb",
+      "Image": "images/subs/Wsb_Bomb_Curling.png",
+      "AltText": "Curling Bomb",
+      "Description": "When deployed, the Curling Bomb travels in a straight line across the floor, leaving a trail of Ink and bouncing off of any wall or obstacle it encounters. It explodes after it has traveled its maximum distance. The maximum distance of the Curling Bomb may be shortened by charging, or 'cooking' it with R before release.",
+      "MinSplashDamage": 30,
+      "DirectHitDamage": 150,
+      "InkConsumption": 70
+   },
+   {
+      "ID": 3,
+      "Name": "Autobomb",
+      "Image": "images/subs/Wsb_Bomb_Robo.png",
+      "AltText": "Autobomb",
+      "Description": "Autobombs are comparable to S Weapon Sub Seekers from Splatoon. Unlike the Seeker however, they do not leave a trail of ink and can freely change direction. Once thrown, the Autobomb will seek out any enemy players in the vicinity, indicated by the circle which appears once the autobomb has landed, and will automatically move towards them for quite a long time. Once the Autobomb reaches a player or travels far enough without reaching the player, it will explode. If thrown and no enemies are in range, the Autobomb will automatically explode where it was thrown, similar to a S2 Weapon Sub Splat Bomb.",
+      "MinSplashDamage": 30,
+      "DirectHitDamage": 150,
+      "InkConsumption": 70
+   },
+   {
+      "ID": 4,
+      "Name": "Splat Bomb",
+      "Image": "images/subs/Wsb_Bomb_Splash.png",
+      "AltText": "Splat Bomb",
+      "Description": "When thrown, a second after touching a surface, the Splat Bomb explodes and coats the area in its respective team's color. Splat Bombs will not explode in mid-air; they can only explode after touching an object.",
+      "MinSplashDamage": 30,
+      "DirectHitDamage": 180,
+      "InkConsumption": 70,
+      "Explosion": 1,
+      "ExplosionModifier": "after contact"
+   },
+   {
+      "ID": 5,
+      "Name": "Suction Bomb",
+      "Image": "images/subs/Wsb_Bomb_Suction.png",
+      "AltText": "Suction Bomb",
+      "Description": "Suction Bombs can be thrown and are able to attach to virtually any surface, including walls and ceilings. After two seconds, they explode in a burst of ink. Throwing a Suction Bomb will use up 70% of player's Ink Tank under normal circumstances, just like the Splat Bomb. They will also immediately explode upon contact with the Rainmaker's shield or a Splash Wall.",
+      "MinSplashDamage": 30,
+      "DirectHitDamage": 180,
+      "InkConsumption": 70,
+      "Explosion": 2,
+      "ExplosionModifier": "after deployed"
+   },
+   {
+      "ID": 6,
+      "Name": "Squid Beakon",
+      "Image": "images/subs/Wsb_Flag.png",
+      "AltText": "Squid Beakon",
+      "Description": "Squid Beakons are small devices placed at the user's feet that can be Super Jumped to by allies. A Beakon is destroyed when the Super Jumping Inkling lands or when it is damaged by an enemy. One Inkling using Beakons can have up to three placed in the stage at one time; attempting to create a fourth will destroy the oldest of those currently active.",
+      "InkConsumption": 75
+   },
+   {
+      "ID": 7,
+      "Name": "Point Sensor",
+      "Image": "images/subs/Wsb_PointSensor.png",
+      "AltText": "Point Sensor",
+      "Description": "Point Sensors are black, cube-like objects with cylinder-shaped protrusions that change color depending on the player's Ink. When thrown, they explode in a spherical cloud that has the color of the player's ink and tag any enemy Inkling in a certain range with a swirling squid marker. This marker allows tagged enemies to be seen through barriers by all teammates, allowing them to be easily tracked.",
+      "BaseDuration": 8,
+      "BaseDurationModifier": "upon contact",
+      "InkConsumption": 60
+   },
+   {
+      "ID": 8,
+      "Name": "Toxic Mist",
+      "Image": "images/subs/Wsb_PoisonFog.png",
+      "AltText": "Toxic Mist",
+      "Description": "When thrown, Toxic Mist surrounds a circular area in fog. Opponents caught in the fog move more slowly and gradually lose ink. Players that stay in the fog for a longer period of time are more severely affected.",
+      "BaseDuration": 7,
+      "BaseDurationModifier": "after deployed",
+      "InkConsumption": 70
+   },
+   {
+      "ID": 9,
+      "Name": "Splash Wall",
+      "Image": "images/subs/Wsb_Shield.png",
+      "AltText": "Splash Wall",
+      "Description": "The Splash Wall forms a temporary barrier of falling ink, preventing enemy fire from passing through. Opponents will instantly get splattered if they attempt to walk through the Splash Wall, but the player who spawned it and their teammates will have no effect. These players will also be able to shoot through the wall. A similar weapon is also used by the Octarians in Octo Valley.",
+      "BaseDamage": 50,
+      "BaseDamageModifier": "per frame",
+      "BaseDuration": 7,
+      "BaseDurationModifier": "when not damaged",
+      "InkConsumption": 60
+   },
+   {
+      "ID": 10,
+      "Name": "Sprinkler",
+      "Image": "images/subs/Wsb_Sprinkler.png",
+      "AltText": "Sprinkler",
+      "Description": "The Sprinkler was tweaked in Splatoon 2 to have its inking power start out stronger but weaken over time. There are four distinct phases: Deployment, High-power, Mid-power, and Low-power.",
+      "BaseDamage": 20,
+      "BaseDuration": "placeholder",
+      "InkConsumption": 70
+   },
+   {
+      "ID": 11,
+      "Name": "Ink Mine",
+      "Image": "images/subs/Wsb_TimerTrap.png",
+      "AltText": "Ink Mine",
+      "Description": "Up to two Ink Mines can now be placed at once, and if anyone hit by a mine survives their position will be temporarily marked as if they were exposed to a Point Sensor. Ink Mines do not detonate on their own, so they will remain on the battlefield until triggered. Each Ink Mine uses 60% of the ink tank's capacity. It deals 35 damage to opponents caught directly in the blast, and 20 damage to those near the blast.",
+      "BaseDamage": 35,
+      "MinSplashDamage": 20,
+      "InkConsumption": 60
+   }
+]
