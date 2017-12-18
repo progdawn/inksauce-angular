@@ -3,6 +3,10 @@
     font-family: "splatoon2regular";
     src: url("assets/fonts/splatoon2-webfont.ttf");
 }
+@font-face { font-family: "splatoon2regular"; src: url("assets/fonts/splatoon2-webfont.ttf")}
+@font-face { font-family: "splatoon2regular"; src: url("assets/fonts/splatoon2-webfont.eot")}
+@font-face { font-family: "splatoon2regular"; src: url("assets/fonts/splatoon2-webfont.svg")}
+@font-face { font-family: "splatoon2regular"; src: url("assets/fonts/splatoon2-webfont.woff")}
 
 
 /*---- Navbar ----*/
