@@ -100,6 +100,11 @@
 
 /*---- Gallery ----*/
 
+.grid {
+    background: url("assets/images/gallery/gallery-background.jpg");
+    background-repeat: repeat-y;
+}
+
 
 /* clearfix */
 .grid:after {
