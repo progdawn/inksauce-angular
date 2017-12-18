@@ -24,5 +24,8 @@ export class DataService {
     fetchWeapons(){
       return this.http.get('/data/weapons.json')
     }
+    fetchPics(){
+      return this.http.get('/data/pics.json')
+    }
 
 }
