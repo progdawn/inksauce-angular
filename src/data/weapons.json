@@ -60,7 +60,7 @@
       "ID": 4,
       "Name": "Splat Roller",
       "Category": "roller",
-      "ImagePath": "weapons/Wst_Roller_Normal_00.png",
+      "ImagePath": "images/weapons/Wst_Roller_Normal_00.png",
       "AltText": "Splat Roller",
       "Sub": "Curling Bomb",
       "SubImage": "images/subs/Wsb_Bomb_Curling.png",
