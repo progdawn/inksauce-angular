@@ -32,11 +32,7 @@
     background-size: cover;
 }
 /* Sets background image for abilities jumbotron */
-#abilities-jumbotron.jumbotron{
-    background: url("assets/images/jumbotron/abilities-jumbo-2-min.jpg")
-        center center;
-    background-size: cover;
-}
+
 /* Sets background image for weapons jumbotron */
 #weapons-jumbotron.jumbotron{
     background: url("assets/images/jumbotron/weapons-jumbo-1-min.jpg")
