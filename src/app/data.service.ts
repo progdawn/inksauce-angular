@@ -7,29 +7,29 @@ export class DataService {
   constructor(private http: HttpClient) { }
   
     fetchAbilities(){
-      return this.http.get('/data/abilities.json')
+      return this.http.get('/assets/data/abilities.json')
     }
     fetchBrands(){
-      return this.http.get('/data/brands.json')
+      return this.http.get('/assets/data/brands.json')
     }
     fetchGear(){
-      return this.http.get('/data/gear.json')
+      return this.http.get('/assets/data/gear.json')
     }
     fetchSpecials(){
-      return this.http.get('/data/specials.json')
+      return this.http.get('/assets/data/specials.json')
     }
     fetchSubs(){
-      return this.http.get('/data/subs.json')
+      return this.http.get('/assets/data/subs.json')
     }
     fetchWeapons(){
-      return this.http.get('/data/weapons.json')
+      return this.http.get('/assets/data/weapons.json')
     }
     fetchPics(){
-      return this.http.get('/data/pics.json')
+      return this.http.get('/assets/data/pics.json')
     }
     // Added this for testing without using WAMP
     fetchMusic(){
-      return this.http.get('/data/music.json')
+      return this.http.get('/assets/data/music.json')
     }
     fetchMusicPHP(){
       return this.http.get('/app/music/music.php')
