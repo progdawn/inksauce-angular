@@ -18,6 +18,7 @@ import { SubsComponent } from './subs/subs.component';
 import { SpecialsComponent } from './specials/specials.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { SubmitComponent } from './submit/submit.component';
+import { MusicComponent } from './music/music.component';
 
 const APP_ROUTES : Routes = [
   { path: 'brands', component: BrandsComponent},
@@ -28,6 +29,7 @@ const APP_ROUTES : Routes = [
   { path: 'specials', component: SpecialsComponent},
   { path: 'gallery', component: GalleryComponent},
   { path: 'submit', component: SubmitComponent},
+  { path: 'music', component: MusicComponent},
   { path: '', component: HomeComponent }
 ];
 
@@ -43,7 +45,8 @@ const APP_ROUTES : Routes = [
     SubsComponent,
     SpecialsComponent,
     GalleryComponent,
-    SubmitComponent
+    SubmitComponent,
+    MusicComponent
   ],
   imports: [
     BrowserModule,

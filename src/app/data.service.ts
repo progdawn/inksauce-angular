@@ -27,5 +27,8 @@ export class DataService {
     fetchPics(){
       return this.http.get('/data/pics.json')
     }
+    fetchMusic(){
+      return this.http.get('/app/music/music.php')
+    }
 
 }
