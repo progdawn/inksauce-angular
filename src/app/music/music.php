@@ -7,6 +7,7 @@ $json = file_get_contents('../../data/music.json');
 $json_data = json_decode($json, true);
 
 $tunes = array($json_data);
+
 echo json_encode($tunes);
 
 ?>

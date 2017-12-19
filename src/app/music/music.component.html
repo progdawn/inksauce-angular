@@ -1,0 +1,17 @@
+<header class="jumbotron my-4" id="brands-jumbotron" >
+    <h1 class="display-3">Music</h1>
+    <p class="lead">From the freshest bands in Inktopolis!</p>
+</header>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ng-container *ngFor="let tune of tunes">
+                    {{tune.SoundCloudEmbed}}
+                </ng-container>
+            </div>
+        </div>
+    </div>
+    
+</section>
