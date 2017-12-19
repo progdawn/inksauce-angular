@@ -1,0 +1,18 @@
+/* Sets background image for subs jumbotron */
+#sub-jumbotron.jumbotron{
+    background: url("../../assets/images/jumbotron/sub-jumbo-1.jpg")
+        center center;
+    background-size: cover;
+}
+/* Sets button text when clicked. Should combine these later with wildcards */
+#subs-table .btn-primary:before {
+    content:'Click for details';
+}
+#subs-table .btn-primary[aria-expanded="true"]:before {
+    content:'Close Details';
+}
+/* More Subs/Specials stuff */
+#subs-table td.collapse-row {
+    border-style: none;
+    padding: 0;
+}

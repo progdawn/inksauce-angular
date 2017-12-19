@@ -1,0 +1,62 @@
+/* Sets background image for gallery jumbotron */
+#gallery-jumbotron.jumbotron{
+    background: url("../../assets/images/jumbotron/gallery-jumbo-1.jpg")
+        center center;
+    background-size: cover;
+}
+.grid {
+    background: url("../../assets/images/gallery/gallery-background.jpg");
+    background-repeat: repeat-y;
+}
+/* clearfix */
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.grid-sizer,
+.grid-item {
+    width: 20%;
+    overflow: hidden;
+}
+.grid-item {
+    float: left;
+    background-color: #FF197E;
+    border: 2px solid #FF197E;
+    border-color: hsla(337, 100%, 41.29%, 0.5);
+    border-radius: 5px;
+}
+.grid-item--width2 { width:  40%; }
+.grid-item--width3 { width:  60%; }
+
+.grid-item--height2 { height: 200px; }
+.grid-item--height3 { height: 260px; }
+.grid-item--height4 { height: 360px; }
+
+@media only screen and (max-width: 575px) {
+    .grid-sizer, .grid-item {
+        width: 100%
+    }
+}
+
+@media (min-width: 576px) {
+    .grid-sizer, .grid-item {
+        width: 100%
+    }
+}
+
+@media (min-width: 768px){
+    .grid-sizer, .grid-item {
+        width: 50%
+    }
+}
+@media (min-width: 992px){
+    .grid-sizer, .grid-item {
+        width: 33%
+    }
+}
+@media (min-width: 1200px) {
+    .grid-sizer, .grid-item {
+        width: 20%
+    }
+}

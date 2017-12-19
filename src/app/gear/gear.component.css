@@ -1,0 +1,22 @@
+/* Sets background image for gear jumbotron */
+#gear-jumbotron.jumbotron{
+    background: url("../../assets/images/jumbotron/gear-jumbo-4.jpg")
+        center center;
+    background-size: cover;
+}
+.tab-content {
+    padding:10px;
+    border-left:1px solid #DDD;
+    border-bottom:1px solid #DDD;
+    border-right:1px solid #DDD;
+}
+/* Hold on to your butts, we're going up the DOM */
+/* Hide search bar on each tab */
+
+.container-fluid.dt-bootstrap4.no-footer div.row div.col-sm-12.col-md-6 .dataTables_filter {
+    display: none;
+}
+ /*Hide number of entries selector on each tab */
+.container-fluid.dt-bootstrap4.no-footer div.row div.col-sm-12.col-md-6 .dataTables_length {
+    display: none;
+}

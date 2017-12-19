@@ -1,0 +1,19 @@
+/* Sets background image for specials jumbotron */
+#specials-jumbotron.jumbotron{
+    background: url("../../assets/images/jumbotron/specials-jumbo-1.jpg")
+        center center;
+    background-size: cover;
+}
+/* Sets button text when clicked. Should combine these later with wildcards */
+#specials-table .btn-primary:before {
+    content:'Click for details';
+}
+#specials-table .btn-primary[aria-expanded="true"]:before {
+    content:'Close Details';
+}
+
+
+#specials-table td.collapse-row {
+    border-style: none;
+    padding: 0;
+}

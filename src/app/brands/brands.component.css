@@ -1,0 +1,6 @@
+/* Sets background image for brands jumbotron */
+#brands-jumbotron.jumbotron{
+    background: url("../../assets/images/jumbotron/brands-jumbo-1-min.jpg")
+        center center;
+    background-size: cover;
+}
