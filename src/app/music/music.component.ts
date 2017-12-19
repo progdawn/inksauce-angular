@@ -14,13 +14,20 @@ export class MusicComponent implements OnInit {
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
-    this.phpGetMusic();
+    //this.phpGetMusic();
+    this.getMusic();
   }
 
-  phpGetMusic() {
+  // Added this for testing without using WAMP
+  getMusic(){
     this.dataService.fetchMusic().subscribe(
       (data) => this.tunes = data
     );
   }
 
+  phpGetMusic() {
+    this.dataService.fetchMusicPHP().subscribe(
+      (data) => this.tunes = data
+    );
+  }
 }

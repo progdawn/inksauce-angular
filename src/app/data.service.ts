@@ -27,8 +27,11 @@ export class DataService {
     fetchPics(){
       return this.http.get('/data/pics.json')
     }
+    // Added this for testing without using WAMP
     fetchMusic(){
+      return this.http.get('/data/music.json')
+    }
+    fetchMusicPHP(){
       return this.http.get('/app/music/music.php')
     }
-
 }
