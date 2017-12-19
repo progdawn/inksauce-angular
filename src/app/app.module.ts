@@ -7,6 +7,7 @@ import {LoggingService} from './logging.service';
 import {DataService} from './data.service';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { Ng4TwitterTimelineModule } from 'ng4-twitter-timeline/lib/index';
+import { EscapeHtmlPipe } from './keep-html.pipe';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -46,7 +47,8 @@ const APP_ROUTES : Routes = [
     SpecialsComponent,
     GalleryComponent,
     SubmitComponent,
-    MusicComponent
+    MusicComponent,
+    EscapeHtmlPipe
   ],
   imports: [
     BrowserModule,

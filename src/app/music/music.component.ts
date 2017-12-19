@@ -11,7 +11,8 @@ export class MusicComponent implements OnInit {
 
   tunes:any = [];
 
-  constructor(private dataService: DataService) { }
+  constructor(private dataService: DataService) {
+   }
 
   ngOnInit() {
     //this.phpGetMusic();

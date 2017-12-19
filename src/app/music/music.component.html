@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-md-12">
                 <ng-container *ngFor="let tune of tunes">
-                    <div class="e2e-trusted-url" [innerHTML]='tune.SoundCloudEmbed'></div>
+                    <div [innerHTML]='tune.SoundCloudEmbed | keepHtml'></div>
                 </ng-container>
             </div>
         </div>
