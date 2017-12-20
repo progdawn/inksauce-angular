@@ -20,7 +20,7 @@
                         <ng-container *ngFor="let sub of subs; index as i">
                             <tr>
                                 <th scope="row">{{sub.Name}}</th>
-                                <td><img src="../../assets/{{sub.Image}}"></td>
+                                <td><img src="./assets/{{sub.Image}}"></td>
                                 <td>{{sub.Description}}</td>
                                 <td>
                                     <button class="btn btn-outline-primary btn-block" type="button" data-toggle="collapse" [attr.data-target]="'#collapse-' + i" [attr.aria-expanded]="false" [attr.aria-controls] = "'collapse-' + i"></button>
