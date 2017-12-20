@@ -12,6 +12,9 @@ export class DataService {
     fetchBrands(){
       return this.http.get('./assets/data/brands.json')
     }
+    fetchBrandsFB(){
+      return this.http.get('https://inksauce-e5f42.firebaseio.com/.json')
+    }
     fetchGear(){
       return this.http.get('./assets/data/gear.json')
     }
