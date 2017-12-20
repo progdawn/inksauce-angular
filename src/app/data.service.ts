@@ -7,7 +7,7 @@ export class DataService {
   constructor(private http: HttpClient) { }
   
     fetchAbilities(){
-      return this.http.get('/assets/data/abilities.json')
+      return this.http.get('./assets/data/abilities.json')
     }
     fetchBrands(){
       return this.http.get('/assets/data/brands.json')
