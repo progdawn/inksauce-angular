@@ -10,28 +10,28 @@ export class DataService {
       return this.http.get('./assets/data/abilities.json')
     }
     fetchBrands(){
-      return this.http.get('/assets/data/brands.json')
+      return this.http.get('./assets/data/brands.json')
     }
     fetchGear(){
-      return this.http.get('/assets/data/gear.json')
+      return this.http.get('./assets/data/gear.json')
     }
     fetchSpecials(){
-      return this.http.get('/assets/data/specials.json')
+      return this.http.get('./assets/data/specials.json')
     }
     fetchSubs(){
-      return this.http.get('/assets/data/subs.json')
+      return this.http.get('./assets/data/subs.json')
     }
     fetchWeapons(){
-      return this.http.get('/assets/data/weapons.json')
+      return this.http.get('./assets/data/weapons.json')
     }
     fetchPics(){
-      return this.http.get('/assets/data/pics.json')
+      return this.http.get('./assets/data/pics.json')
     }
     // Added this for testing without using WAMP
     fetchMusic(){
-      return this.http.get('/assets/data/music.json')
+      return this.http.get('./assets/data/music.json')
     }
     fetchMusicPHP(){
-      return this.http.get('/app/music/music.php')
+      return this.http.get('./app/music/music.php')
     }
 }
