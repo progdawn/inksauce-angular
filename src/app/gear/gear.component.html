@@ -19,25 +19,25 @@
                             <table class="table table-striped table-bordered dt-responsive nowrap" id="headgear-table">
                                 <thead class="thead-default">
                                     <tr>       
-                                        <th class="min-phone-l nosort">Image</th>                                 
+                                        <th class="hide-sm hide-xs">Image</th>
                                         <th>Name</th>
-                                        <th class="min-phone-l">Ability</th>
+                                        <th class="hide-xs">Ability</th>
                                         <th>Ability Image</th>
-                                        <th class="min-phone-l">Brand</th>
+                                        <th class="hide-xs">Brand</th>
                                         <th>Brand Image</th>
-                                        <th>Stars</th>
+                                        <th class="hide-xs">Stars</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <ng-container *ngFor="let gear of gears">
                                         <tr *ngIf="gear.GearType == 'Headgear'">                                    
-                                            <td><img src="./assets/{{gear.GearImage}}"></td>
+                                            <td class="hide-sm hide-xs"><img src="./assets/{{gear.GearImage}}"></td>
                                             <th scope="row">{{gear.Name}}</th>
-                                            <td>{{gear.Ability}}</td>
+                                            <td class="hide-xs">{{gear.Ability}}</td>
                                             <td><img src="./assets/{{gear.AbilityImage}}" ></td>
-                                            <td>{{gear.Brand}}</td>
+                                            <td class="hide-xs">{{gear.Brand}}</td>
                                             <td><img src="./assets/{{gear.BrandImage}}" ></td>
-                                            <td>{{gear.StarCount}}</td>
+                                            <td class="hide-xs">{{gear.StarCount}}</td>
                                         </tr>
                                     </ng-container>
                                 </tbody>
@@ -49,25 +49,25 @@
                             <table class="table table-striped table-bordered dt-responsive nowrap" id="clothes-table">
                                     <thead class="thead-default">
                                         <tr>                                        
-                                            <th class="min-phone-l nosort">Image</th>                               
-                                            <th>Name</th>
-                                            <th class="min-phone-l">Ability</th>
-                                            <th>Ability Image</th>
-                                            <th class="min-phone-l">Brand</th>
-                                            <th>Brand Image</th>
-                                            <th>Stars</th>
+                                            <th class="hide-sm hide-xs">Image</th>
+                                        <th>Name</th>
+                                        <th class="hide-xs">Ability</th>
+                                        <th>Ability Image</th>
+                                        <th class="hide-xs">Brand</th>
+                                        <th>Brand Image</th>
+                                        <th class="hide-xs">Stars</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <ng-container *ngFor="let gear of gears">
                                                 <tr *ngIf="gear.GearType == 'Clothes'">
-                                                    <td><img src="./assets/{{gear.GearImage}}"></td>
-                                                    <th scope="row">{{gear.Name}}</th>
-                                                    <td>{{gear.Ability}}</td>
-                                                    <td><img src="./assets/{{gear.AbilityImage}}" ></td>
-                                                    <td>{{gear.Brand}}</td>
-                                                    <td><img src="./assets/{{gear.BrandImage}}" ></td>
-                                                    <td>{{gear.StarCount}}</td>
+                                                    <td class="hide-sm hide-xs"><img src="./assets/{{gear.GearImage}}"></td>
+                                            <th scope="row">{{gear.Name}}</th>
+                                            <td class="hide-xs">{{gear.Ability}}</td>
+                                            <td><img src="./assets/{{gear.AbilityImage}}" ></td>
+                                            <td class="hide-xs">{{gear.Brand}}</td>
+                                            <td><img src="./assets/{{gear.BrandImage}}" ></td>
+                                            <td class="hide-xs">{{gear.StarCount}}</td>
                                                 </tr>
                                         </ng-container>
                                     </tbody>
@@ -79,25 +79,25 @@
                             <table class="table table-striped table-bordered dt-responsive nowrap" id="shoes-table">
                                 <thead class="thead-default">
                                     <tr>                                        
-                                        <th class="min-phone-l nosort">Image</th>                           
+                                        <th class="hide-sm hide-xs">Image</th>
                                         <th>Name</th>
-                                        <th class="min-phone-l">Ability</th>
+                                        <th class="hide-xs">Ability</th>
                                         <th>Ability Image</th>
-                                        <th class="min-phone-l">Brand</th>
+                                        <th class="hide-xs">Brand</th>
                                         <th>Brand Image</th>
-                                        <th>Stars</th>
+                                        <th class="hide-xs">Stars</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <ng-container *ngFor="let gear of gears">
                                         <tr *ngIf="gear.GearType == 'Shoes'">
-                                            <td><img src="./assets/{{gear.GearImage}}"></td>
+                                            <td class="hide-sm hide-xs"><img src="./assets/{{gear.GearImage}}"></td>
                                             <th scope="row">{{gear.Name}}</th>
-                                            <td>{{gear.Ability}}</td>
+                                            <td class="hide-xs">{{gear.Ability}}</td>
                                             <td><img src="./assets/{{gear.AbilityImage}}" ></td>
-                                            <td>{{gear.Brand}}</td>
+                                            <td class="hide-xs">{{gear.Brand}}</td>
                                             <td><img src="./assets/{{gear.BrandImage}}" ></td>
-                                            <td>{{gear.StarCount}}</td>
+                                            <td class="hide-xs">{{gear.StarCount}}</td>
                                         </tr>
                                     </ng-container>
                                 </tbody>

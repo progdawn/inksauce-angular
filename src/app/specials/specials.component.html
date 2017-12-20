@@ -12,8 +12,8 @@
                       <tr>
                           <th>Name</th>
                           <th>Image</th>
-                          <th>Description</th>
-                          <th>Stats</th>
+                          <th class="hide-sm hide-xs">Description</th>
+                          <th class="hide-sm hide-xs">Stats</th>
                       </tr>
                   </thead>
                   <tbody>
@@ -21,8 +21,8 @@
                             <tr>
                                 <th scope="row">{{special.Name}}</th>
                                 <td><img src="./assets/{{special.Image}}"></td>
-                                <td>{{special.Description}}</td>
-                                <td>
+                                <td class="hide-sm hide-xs">{{special.Description}}</td>
+                                <td class="hide-sm hide-xs">
                                     <button class="btn btn-outline-primary btn-block" type="button" data-toggle="collapse" [attr.data-target]="'#collapse-' + i" [attr.aria-expanded]="false" [attr.aria-controls] = "'collapse-' + i"></button>
                                 </td>
                             </tr>

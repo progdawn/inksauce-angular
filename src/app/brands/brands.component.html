@@ -10,26 +10,26 @@
               <table class="table table-responsive display responsive" id="brandstable">
                   <thead class="thead-default">
                       <tr>
-                          <th class="min-tablet-lp">Brand</th>
-                          <th class="min-phone-l nosort">Brand</th>
-                          <th class="min-tablet-lp">Common</th>
-                          <th class="min-phone-l nosort">Common</th>
-                          <th class="desktop">Description</th>
-                          <th class="min-tablet-lp">Uncommon</th>
-                          <th class="min-phone-l nosort">Uncommon</th>
-                          <th class="desktop">Description</th>
+                          <th>Brand</th>
+                          <th>Brand</th>
+                          <th class="hide-xs">Common</th>
+                          <th>Common</th>
+                          <th class="hide-sm hide-xs">Description</th>
+                          <th class="hide-xs">Uncommon</th>
+                          <th class="hide-xs">Uncommon</th>
+                          <th class="hide-sm hide-xs">Description</th>
                       </tr>
                   </thead>
                   <tbody>
                       <tr *ngFor="let brand of brands">
                           <th scope="row">{{brand.Name}}</th>
                           <td><img src="./assets/{{brand.Image}}"></td>
-                          <td>{{brand.CommonAbility}}</td>
+                          <td class="hide-xs">{{brand.CommonAbility}}</td>
                           <td><img src="./assets/{{brand.CommonAbilityImage}}" ></td>
-                          <td>{{brand.CommonAbilityDescription}}</td>
-                          <td>{{brand.UncommonAbility}}</td>
-                          <td><img src="./assets/{{brand.UncommonAbilityImage}}" ></td>
-                          <td>{{brand.UncommonAbilityDescription}}</td>
+                          <td class="hide-sm hide-xs">{{brand.CommonAbilityDescription}}</td>
+                          <td class="hide-xs">{{brand.UncommonAbility}}</td>
+                          <td class="hide-xs"><img src="./assets/{{brand.UncommonAbilityImage}}" ></td>
+                          <td class="hide-sm hide-xs">{{brand.UncommonAbilityDescription}}</td>
                       </tr>
                   </tbody>
               </table>

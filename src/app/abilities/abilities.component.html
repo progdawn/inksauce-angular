@@ -10,17 +10,17 @@
                  <table class="table table-responsive display responsive" id="abilitiestable">
                      <thead class="thead-default">
                          <tr>
-                             <th class="min-tablet-lp">Name</th>
-                             <th class="nosort">Image</th>
-                             <th>Description</th>
+                             <th class="hide-sm">Name</th>
+                             <th>Image</th>
+                             <th class="hide-xs">Description</th>
                              <th>Source</th>
                          </tr>
                      </thead>
                      <tbody>
                          <tr *ngFor="let ability of abilities">
-                             <th scope="row">{{ability.Name}}</th>
+                             <th scope="row" class="hide-sm">{{ability.Name}}</th>
                              <td><img src="./assets/{{ability.Image}}"></td>
-                             <td>{{ability.Description}}</td>
+                             <td class="hide-xs">{{ability.Description}}</td>
                              <td><img src="./assets/{{ability.SourceImage}}"></td>
                         </tr>
                      </tbody>

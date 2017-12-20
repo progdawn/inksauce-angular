@@ -3,7 +3,6 @@
     font-family: "splatoon2regular";
     src: url("assets/fonts/splatoon2-webfont.ttf");
 }
-@font-face { font-family: "splatoon2regular"; src: url("assets/fonts/splatoon2-webfont.ttf")}
 @font-face { font-family: "splatoon2regular"; src: url("assets/fonts/splatoon2-webfont.eot")}
 @font-face { font-family: "splatoon2regular"; src: url("assets/fonts/splatoon2-webfont.svg")}
 @font-face { font-family: "splatoon2regular"; src: url("assets/fonts/splatoon2-webfont.woff")}
@@ -27,6 +26,18 @@
     color: #FDFF00;
     font-family: 'splatoon2regular', Helvetica, sans-serif;
     text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+
+@media only screen and (max-width: 575px) {
+    .hide-xs {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    .hide-sm {
+        display: none;
+    }
 }
 /*---- Submit (Not used, replaced with Musc) ----*/
 /* .php-underline {
