@@ -35,6 +35,6 @@ export class DataService {
       return this.http.get('./assets/data/music.json')
     }
     fetchMusicPHP(){
-      return this.http.get('./app/music/music.php')
+      return this.http.get('./music.php')
     }
 }

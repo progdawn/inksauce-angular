@@ -1,0 +1,6 @@
+/* Sets background image for music jumbotron */
+#music-jumbotron.jumbotron{
+    background: url("../../assets/images/jumbotron/music-jumbo-1.jpg")
+        center center;
+    background-size: cover;
+}

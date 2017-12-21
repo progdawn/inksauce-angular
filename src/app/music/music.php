@@ -1,9 +1,8 @@
 <?php
-//There's no reason this file should exist
 //Requirement: Use PHP - achieved
 
 // Read JSON file
-$json = file_get_contents('../../data/music.json');
+$json = file_get_contents('./assets/data/music.json');
 
 //Decode JSON
 $json_data = json_decode($json, true);
